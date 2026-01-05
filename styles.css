@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@400;700;900&display=swap');
+*{
+font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+h1{
+font-size: 36px;
+}
+h2{
+font-size: 24px;
+}
+a {
+text-decoration: none;
+position: relative;
+}
+
+ul{
+list-style-type: none;
+}
+.link__group{
+display: flex;
+}
+.link__word{
+margin: 0 24px;
+}
+.link__info{
+color: #000;
+}
+
+
+
+
+.link__hover-effect:hover:after {
+ content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  bottom: -3px;
+  right: 0;
+  transition: all 300ms ease;
+}
+.link__hover-effect--pl:after {
+  background: #7a05ff;
+}
+.link__hover-effect:hover:after {
+  width: 100%;
+  left: 0;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.tre__logo-name{
+font-weight: 900;
+font-size: 24px;
+margin-left: 12px;
+padding-bottom: 2px;
+letter-spacing: 0.6px;
+}
+.word{
+max-width: 100%;
+width: 24px;
+height: auto;
+}
