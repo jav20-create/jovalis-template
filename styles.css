@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@400;700;900&display=swap');
 *{
-font-family: "Inter", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 html{
 scroll-behavior: smooth;
@@ -18,32 +18,98 @@ a {
 text-decoration: none;
 position: relative;
 }
+main{
+height: calc(100vh - 80px);
+}
 
 ul{
 list-style-type: none;
+}
+nav{
+height: 80px;
+display: flex;
+}
+button{
+border-radius:40px;
+}
+input{
+border-radius: 50px;
+}
+
+
+
+
+.row {
+ display: flex;
+
+  width: 100%;
+  max-width: 1300px;
+  
+  padding: 2px;
+}
+.contain{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.info-c{
+text-align: center;
+}
+.temp__easy{
+text-align: center;
+}
+/*
+
+TREACT
+
+*/
+#treact{
+position: relative;
+}
+
+.tre__logo-name{
+font-weight: 900;
+font-size: 24px;
+margin-left: 12px;
+padding-top: 6px;
+letter-spacing: 0.6px;
+}
+.word{
+max-width: 100%;
+width: 40px;
+height: auto;
 }
 .link__group{
 display: flex;
 position: relative;
 padding-top: 8px;
-padding-left: 75px;
+
 }
 .link__group-1{
 position: relative;
 display: flex;
 padding-top: 8px;
-padding-left: 24px;
+
 }
 .link__word{
 margin: 0 12px;
+font-size: 12px;
 }
 .link__info{
 color: #000;
 }
-
-.link-contain{
+.link_a{
+position: relative;
 display: flex;
-padding-left: 75%;
+margin-left: 700px;
+}
+.link-contain{
+position: relative;
+display: flex;
+}
+.link-contain-1{
+padding: 0 12px;
 }
 
 
@@ -64,30 +130,52 @@ padding-left: 75%;
   left: 0;
 }
 .container-1{
+position: absolute;
 display: flex;
-
-
-
 }
-.row {
+
+/*
+
+
+TEMPLATES
+
+
+*/
+
+#templates{
+position: relative;
+}
+
+.img__coml{
+width: 500px;
+}
+.img__coml-comp{
+width: 700px;
+}
+.bota{
+position: absolute;
+padding:  10px 30px;
+background-color: #7a05ff;
+color: #fff;
+border: none;
+}
+.bota:hover{
+background-color: rgba(100, 00, 600, 1.2);
+cursor: pointer;
+}
+.eml{
+position: relative;
+padding: 12px 84px;
+border: none;
+}
+.eml:focus{
+outline: none;
+}
+.em{
 display: flex;
-
-
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 12px;
+border: 1px solid grey;
+border-radius: 40px;
 }
-
-.tre__logo-name{
-font-weight: 900;
-font-size: 24px;
-margin-left: 12px;
-padding-bottom: 2px;
-letter-spacing: 0.6px;
-}
-.word{
-max-width: 100%;
-width: 30px;
-height: auto;
+.form__wrapper{
+margin: 6px 0;
 }
