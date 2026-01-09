@@ -11,12 +11,12 @@ scroll-behavior: smooth;
 h1{
 font-size: 46px;
 margin-bottom: 16px;
-text-align: center;
+
 }
 h2{
 font-size: 32px;
 margin-bottom: 12px;
-text-align: center;
+
 }
 a {
 text-decoration: none;
@@ -58,7 +58,9 @@ align-items: center;
 }
 
 
-
+.container__subtitle{
+text-align: center;
+}
 .container__content{
 text-align: center;
 }
@@ -68,7 +70,12 @@ text-align: center;
 .pl{
 color: #7a05ff;
 }
-
+.container__title-1{
+text-align: left;
+}
+.container__content-1{
+text-align: left;
+}
 /*
 
 TREACT
@@ -192,7 +199,7 @@ background-color: rgba(100, 00, 600, 1.2);
 cursor: pointer;
 }
 .eml{
-padding: 22px;
+padding: 24px 86px;
 border: none;
 border-radius: 40px;
 
@@ -278,6 +285,22 @@ position: relative;
 display: flex;
 flex-direction: row-reverse;
 }
-.bea{
-width: 800px;
+.container__img-2{
+width: 75%;
+}
+.box_dots{
+
+  /* Use the exact color from the image (approx #6B46C1 or #805AD5) */
+  background-image: radial-gradient(#805AD5 2px, transparent 2px); 
+  
+  /* Set the spacing (e.g., 30px square grid) */
+  background-size: 30px 30px; 
+  
+  /* Use absolute positioning to place it precisely like in the image */
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px; /* Adjust width/height as needed for placement */
+  height: 100px; 
+  z-index: -1; /* Send it behind the main content block */
 }
