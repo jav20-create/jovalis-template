@@ -9,7 +9,7 @@ html{
 scroll-behavior: smooth;
 }
 h1{
-font-size: 56px;
+font-size: 46px;
 margin-bottom: 16px;
 text-align: center;
 }
@@ -62,7 +62,7 @@ align-items: center;
 .container__content{
 text-align: center;
 }
-.qu-1{
+.container__title{
 text-align: center;
 }
 .pl{
@@ -76,6 +76,10 @@ TREACT
 */
 #treact{
 position: relative;
+}
+.nav__wrapper{
+display: flex;
+margin-top: 8px;
 }
 .nav__container{
 display: flex;
@@ -111,8 +115,6 @@ padding: 6px 25px;
 }
 .nav-actions{
 display: flex;
-justify-content: space-around;
-margin-top: 8px;
 margin-left: 20px;
 
 }
@@ -122,22 +124,20 @@ margin-left: 20px;
 .nav-link--btn{
 color: #000;
 }
-.btn{
-background-color: #7a05ff;
-padding: 12px 24px;
-border: none;
-color: #fff;
 
-}
+
+
+
+
 .nav-links{
 display: flex;
-justify-content:space-around;
-align-items:baseline;
 padding-left: 200px;
 width: 100%;
 }
 
-
+.nav-link{
+margin-left: 15px;
+}
 
 .link__hover-effect:hover:after {
  content: "";
@@ -173,34 +173,28 @@ TEMPLATES
 position: relative;
 }
 
-.form__wrapper{
 
-}
 .container__content-small{
 color: #333333;
-margin-top: 120px;
+
 }
 
 
 .btn{
-
-
-width: 150px;
-margin-left: 20px;
-margin-top: 20px;
+padding: 18px 45px;
 background-color: #7a05ff;
 color: #fff;
 border: none;
+
 }
 .btn:hover{
 background-color: rgba(100, 00, 600, 1.2);
 cursor: pointer;
 }
 .eml{
-width: 200px;
-height: 100%;
-margin-right: 20px;
+padding: 22px;
 border: none;
+border-radius: 40px;
 
 }
 .eml:focus{
@@ -209,14 +203,15 @@ outline: none;
 .container__form{
 display: flex;
 flex-wrap: wrap;
+gap: 12px;
 border: 1px solid grey;
 border-radius: 700px;
-margin: 12px;
+margin: 20px;
 width: 100%;
-height: 100%;
 }
 .container__img-logo{
 width: 400px;
+margin-top: 4px;
 }
 .container__img{
 width: 600px;
@@ -229,16 +224,21 @@ SALE
 #sale{
 position: relative;
 }
+.container__2{
+display: flex;
+flex-direction: column;
 
+}
 
 .container__info{
 display: flex;
-margin-top: 24px;
+padding: 12px 24px;
+width: calc(100% / 3);
 }
 .container__block-1{
 display: flex;
-flex-direction: column;
-padding: 12px 8px;
+align-content:stretch;
+margin-left: 100px;
 }
 .container__content-small{
 text-align: left;
