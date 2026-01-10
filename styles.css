@@ -330,14 +330,21 @@ position: relative;
 .container__block-2{
 display: flex;
 justify-content: space-evenly;
-white-space: calc(100% / 3);
+margin-top: 8px;
+
 
 
 }
-.container__pricint--green{
-display: flex;
-flex-direction: column;
+.container__pricing--green{
+border: 1px solid #454545;
+width: calc(100% / 3);
+height: 500px;
+}
 
-
+.pricing__text,
+.pricing__number,
+.pricing__text--grey,
+{
+line-hight: 1.6px;
 
 }
