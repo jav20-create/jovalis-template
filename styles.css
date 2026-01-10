@@ -55,8 +55,11 @@ width: 50%;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin-top: 50px;
 }
-
+.container__title--sub{
+text-align: center;
+}
 
 .container__subtitle{
 text-align: center;
@@ -112,10 +115,12 @@ justify-content: space-around;
 .btn-link{
 display:grid;
 justify-self: start;
-max-width: 300px;
+max-width: 500px;
+width: 110px;
 background-color: #7a05ff;
 color: #fff;
 text-align: center;
+border: none;
 
 border-radius: 75px;
 padding: 6px 25px;
@@ -164,7 +169,9 @@ margin-left: 15px;
 }
 .container-1{
 display: flex;
-margin-top: 8px;
+flex-direction: column;
+align-items: start;
+
 }
 
 
@@ -180,7 +187,11 @@ TEMPLATES
 position: relative;
 }
 
-
+.container__small{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
 .container__content-small{
 color: #333333;
 
@@ -193,6 +204,7 @@ background-color: #7a05ff;
 color: #fff;
 border: none;
 
+
 }
 .btn:hover{
 background-color: rgba(100, 00, 600, 1.2);
@@ -202,6 +214,7 @@ cursor: pointer;
 padding: 24px 86px;
 border: none;
 border-radius: 40px;
+margin-right: 116px;
 
 }
 .eml:focus{
@@ -210,15 +223,14 @@ outline: none;
 .container__form{
 display: flex;
 flex-wrap: wrap;
-gap: 12px;
+gap: 24px;
 border: 1px solid grey;
 border-radius: 700px;
 margin: 20px;
 width: 100%;
 }
 .container__img-logo{
-width: 400px;
-margin-top: 4px;
+width: 600px;
 }
 .container__img{
 width: 600px;
@@ -284,9 +296,15 @@ position: relative;
 .row-1{
 display: flex;
 flex-direction: row-reverse;
+max-width: 1300px;
+padding: 2px;
 }
 .container__img-2{
-width: 75%;
+width: 500px;
+position: absolute;
+top: 0px;
+right: 300px;
+
 }
 .box_dots{
 
@@ -294,7 +312,7 @@ width: 75%;
   background-image: radial-gradient(#805AD5 2px, transparent 2px); 
   
   /* Set the spacing (e.g., 30px square grid) */
-  background-size: 30px 30px; 
+  background-size: 20px 20px; 
   
   /* Use absolute positioning to place it precisely like in the image */
   position: absolute;
@@ -303,4 +321,23 @@ width: 75%;
   width: 100px; /* Adjust width/height as needed for placement */
   height: 100px; 
   z-index: -1; /* Send it behind the main content block */
+}
+#testimonial{
+position: relative;}
+#pricing{
+position: relative;
+}
+.container__block-2{
+display: flex;
+justify-content: space-evenly;
+white-space: calc(100% / 3);
+
+
+}
+.container__pricint--green{
+display: flex;
+flex-direction: column;
+
+
+
 }
