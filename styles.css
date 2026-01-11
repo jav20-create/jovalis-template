@@ -44,18 +44,33 @@ border-radius: 50px;
 
 
 .row {
- display: flex;
-
+ width: 100%;
   max-width: 1300px;
-  padding: 2px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
 }
 .container{
+position: relative;
 display: flex;
+flex-wrap: wrap;
 width: 50%;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 50px;
+padding: 0 10px;
+}
+.container-1{
+position: relative;
+display: flex;
+flex-wrap: wrap;
+width: 50%;
+flex-direction: column;
+justify-content: start;
+align-items: start;
+padding: 0 10px;
 }
 .container__title--sub{
 text-align: center;
@@ -79,6 +94,8 @@ text-align: left;
 .container__content-1{
 text-align: left;
 }
+
+
 /*
 
 TREACT
@@ -86,6 +103,7 @@ TREACT
 */
 #treact{
 position: relative;
+
 }
 .nav__wrapper{
 display: flex;
@@ -167,12 +185,7 @@ margin-left: 15px;
   width: 100%;
   left: 0;
 }
-.container-1{
-display: flex;
-flex-direction: column;
-align-items: start;
 
-}
 
 
 /*
@@ -185,6 +198,7 @@ TEMPLATES
 
 #templates{
 position: relative;
+padding: 0 26px;
 }
 
 .container__small{
@@ -295,16 +309,21 @@ position: relative;
 
 .row-1{
 display: flex;
+flex-wrap: wrap;
 flex-direction: row-reverse;
 max-width: 1300px;
-padding: 2px;
+width: 100%;
+padding: 100px, 0;
+}
+.container__overflow{
+overflow: visible;
 }
 .container__img-2{
-width: 500px;
 position: absolute;
+width: 470px;
 top: 0px;
-right: 300px;
-
+left: 0px;
+z-index: 2;
 }
 .box_dots{
 
@@ -312,18 +331,20 @@ right: 300px;
   background-image: radial-gradient(#805AD5 2px, transparent 2px); 
   
   /* Set the spacing (e.g., 30px square grid) */
-  background-size: 20px 20px; 
+  background-size:5px 5px;
   
   /* Use absolute positioning to place it precisely like in the image */
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  width: 100px; /* Adjust width/height as needed for placement */
-  height: 100px; 
-  z-index: -1; /* Send it behind the main content block */
+  
+  width: 50px; /* Adjust width/height as needed for placement */
+  height: 50px; 
+   /* Send it behind the main content block */
+  translate: 190px 190px;
+  z-index: 1;
 }
 #testimonial{
-position: relative;}
+position: relative;
+padding: 0 26px;
+}
 #pricing{
 position: relative;
 }
@@ -331,20 +352,100 @@ position: relative;
 display: flex;
 justify-content: space-evenly;
 margin-top: 8px;
+}
+.container__strip-green{
+position: absolute;
+top: 0;
+left: 0px;
+right: 0;
+width:248px;
+height: 5px;
 
-
+background: linear-gradient(115deg, rgba(0, 84, 0, 0.6), rgba(37, 242, 238, 0.2));
 
 }
 .container__pricing--green{
-border: 1px solid #454545;
-width: calc(100% / 3);
+position: relative;
+width: 250px;
+padding: 40px;
+margin: 20px;
+text-align: center;
+border:1px solid #acacac;
+border-radius: 15px;
+height: 500px;
+overflow: hidden;
+}
+.container__pricing--purple{
+position: relative;
+width: 250px;
+padding: 40px;
+margin: 20px;
+text-align: center;
+color: #fff;
+border: 1px solid transparent;
+background-color: #7a05ff;
+border-radius: 15px;
 height: 500px;
 }
+.container__strip--red-coral{
+position: absolute;
+top: 0;
+left: 0px;
+right: 0;
+width:248px;
+height: 5px;
+background:linear-gradient(115deg, rgba(220, 61, 61, 0.6), rgba(243, 114, 114, 0.4));
+}
+.container__pricing--red-coral{
+position: relative;
+width: 250px;
+padding: 40px;
+margin: 20px;
+text-align: center;
+border: 1px solid transparent;
+border-color: #acacac;
+border-radius: 15px;
+height: 500px;
+overflow: hidden;
+}
 
-.pricing__text,
-.pricing__number,
-.pricing__text--grey,
-{
-line-hight: 1.6px;
+.container__block-pricing{
+line-height: 2.5;
+}
+.pricing__text{
+line-height: 2.5;
+}
+.pricing__text--white{
+line-height: 2.5;
 
+}
+.pricing__number{
+line-height: 2.5;
+}
+.pr__txt{
+line-height: 2.5;
+}
+.green-1{
+background:linear-gradient(115deg,  rgba(6, 125, 111, 0.6), rgba(37, 242, 238, 0.4));
+color:#ffffff;
+width: 150px;
+height: 30px;
+margin-top: 10px;
+border: none;
+}
+.btn-white{
+background-color: #ffffff;
+color: #7a05ff;
+width: 150px;
+height: 30px;
+margin-top: 10px;
+border: none;
+}
+.red__coral{
+background:linear-gradient(115deg, rgba(220, 61, 61, 0.6), rgba(243, 114, 114, 0.4));
+color: #ffffff;
+width: 150px;
+height: 30px;
+margin-top: 10px;
+border: none;
 }

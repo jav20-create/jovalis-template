@@ -45,7 +45,7 @@ modular components with a variety of pages and components.</p>
 
 
 <div class="container__form">
-<form action="/submit" method="post" class="form-wrapper">
+<form action="submit" method="post" class="form-wrapper">
 <input type="email" class="eml" placeholder="Your E-mail Address"></input>
 <button type="submit" value="submit" class="btn">Get Started</button>
 </form>
@@ -128,8 +128,10 @@ modular components with a variety of pages and components.</p>
 <section id="profession">
 <div class="row-1">
 <div class="container">
+<div class="container__overflow">
 <img src="assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="" class="container__img-2">
 <div class="box_dots"></div>
+</div>
 </div>
 <div class="container">
 <div class="container__title-l">QUALITY WORK</div>
@@ -192,15 +194,18 @@ modular components with a variety of pages and components.</p>
 <section id="pricing">
 
 <div class="container__2">
+
 <div class="container__title">PRICING</div>
 <h2 class="container__subtitle">Reasonable & Flexable<span class="pl"> Plans</span></h2>
 <p class="container__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
 <div class="container__block-2">
 <div class="container__pricing--green">
+<div class="container__strip-green"></div>
+<div class="container__block-pricing">
 <div class="pricing__text">PERSONAL</div>
 <div class="pricing__number">$17.99</div>
 <div class="pricing__text--grey">MONTHLY</div>
+</div>
 <hr class="prline">
 <div class="pricing__text">For Individuals</div>
 <ul class="pr__txt">
@@ -215,25 +220,29 @@ modular components with a variety of pages and components.</p>
 
 
 <div class="container__pricing--purple">
+<div class="container__block-pricing">
 <div class="pricing__text">BUSINESS</div>
 <div class="pricing__number">$37.99</div>
-<div class="pricing__text--white">MONTHLY</div>
+<div class="pricing__text">MONTHLY</div>
+</div>
 <hr class="prline__purple">
-<div class="pricing__text"></div>
-<div class="pricing__text--white-1">For Small Businesses</div>
+<div class="pricing__text">For Small Businesses</div>
 <ul class="pr__txt">
 <li class="pr__txt-1">60 Templates</li>
 <li class="pr__txt-1">15 Landing Pages</li>
 <li class="pr__txt-1">22 Internal Pages</li>
 <li class="pr__txt-1">Priority Assistance</li>
 </ul>
-<hr class="prline">
+<hr class="prline__purple">
 <button class="btn-white">BUY NOW</button>
 </div>
-<div class="contain__pricing--red-coral">
+<div class="container__pricing--red-coral">
+<div class="container__strip--red-coral"></div>
+<div class="container__block-pricing">
 <div class="pricing__text">ENTERPRISE</div>
 <div class="pricing__number">$57.99</div>
 <div class="pricing__text--grey">MONTHLY</div>
+</div>
 <hr class="prline">
 <div class="pricing__text">For Large Companies</div>
 <ul class="pr__txt">
@@ -286,7 +295,7 @@ modular components with a variety of pages and components.</p>
 </div>
 </div>
 </section>
-<footer id="company__info">
+<footer>
 <div class="footer__contain">
 <h3 class="container__title--sub">MAIN</h3>
 <ul class="footer__lists">
