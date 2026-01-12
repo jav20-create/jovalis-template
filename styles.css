@@ -49,7 +49,7 @@ border-radius: 50px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-between
   padding: 100px 0px;
 }
 .container{
@@ -60,7 +60,6 @@ width: 50%;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0 10px;
 }
 .container-1{
 position: relative;
@@ -70,7 +69,6 @@ width: 50%;
 flex-direction: column;
 justify-content: start;
 align-items: start;
-padding: 0 10px;
 }
 .container__title--sub{
 text-align: center;
@@ -205,6 +203,7 @@ padding: 0 26px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
+padding: 0 24px;
 }
 .container__content-small{
 color: #333333;
@@ -213,7 +212,7 @@ color: #333333;
 
 
 .btn{
-padding: 18px 45px;
+padding: 18px 46px;
 background-color: #7a05ff;
 color: #fff;
 border: none;
@@ -221,11 +220,11 @@ border: none;
 
 }
 .btn:hover{
-background-color: rgba(100, 00, 600, 1.2);
+background-color: rgb(90, 33, 171);
 cursor: pointer;
 }
 .eml{
-padding: 24px 86px;
+padding: 18px 30px;
 border: none;
 border-radius: 40px;
 margin-right: 116px;
@@ -237,7 +236,7 @@ outline: none;
 .container__form{
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
+padding: 4px;
 border: 1px solid grey;
 border-radius: 700px;
 margin: 20px;
@@ -248,6 +247,9 @@ width: 600px;
 }
 .container__img{
 width: 600px;
+}
+.container__img-wrapper{
+padding: 0 90px;
 }
 /*
 
@@ -299,7 +301,7 @@ border-radius: 50px;
 }
 /*
 
-QUALITY wORK
+PROFESSION
 
 */
 
@@ -313,7 +315,7 @@ flex-wrap: wrap;
 flex-direction: row-reverse;
 max-width: 1300px;
 width: 100%;
-padding: 100px, 0;
+justify-content: space-between;
 }
 .container__overflow{
 overflow: visible;
@@ -327,24 +329,43 @@ z-index: 2;
 }
 .box_dots{
 
-  /* Use the exact color from the image (approx #6B46C1 or #805AD5) */
-  background-image: radial-gradient(#805AD5 2px, transparent 2px); 
   
-  /* Set the spacing (e.g., 30px square grid) */
+  background-image: radial-gradient(#5d35b2 2px, transparent 2px); 
+  
+  
   background-size:5px 5px;
   
-  /* Use absolute positioning to place it precisely like in the image */
   
-  width: 50px; /* Adjust width/height as needed for placement */
+  
+  width: 50px; 
   height: 50px; 
-   /* Send it behind the main content block */
+   
   translate: 190px 190px;
   z-index: 1;
+}
+/*
+
+STEPS
+
+*/
+#steps{
+position: relative;
+padding: 0 26px;
+}
+.container__img-2-1{
+position: absolute;
+width 40px
+
+}
+.box_dots-p{
+background-image: radial-gradient(3px #aa90ff 3px);
 }
 #testimonial{
 position: relative;
 padding: 0 26px;
 }
+
+
 #pricing{
 position: relative;
 }
