@@ -167,12 +167,14 @@ width: 100%;
 margin-left: 15px;
 color: #000000;
 text-decoration-line: none;
+transition: all 500ms ease;
 }
 
 .nav-link:hover{
 text-decoration-line: underline;
 text-decoration-color: #7a05ff;
-transition: ;
+text-decoration-thickness: calc(0.1em + 1px);
+
 }
 
 
