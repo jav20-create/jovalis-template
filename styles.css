@@ -191,16 +191,11 @@ justify-content: space-around;
 }
 
 
-
-
-
-
-
 .nav-links{
 display: flex;
 max-width:600px;
 width: 100%;
-margin-left: 100%;
+margin-left: 350px;
 }
 
 
