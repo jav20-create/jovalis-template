@@ -102,33 +102,54 @@ align-items: center;
 }
 .container__title--sub{
 text-align: center;
+flex: 1 1 auto;
+min-width: 0;
 }
 
 .container__subtitle{
 text-align: center;
+flex: 1 1 auto;
+min-width: 0;
 }
 .container__content{
 text-align: center;
+flex: 1 1 auto;
+min-width: 0;
 }
 .container__title{
 text-align: center;
 color: #7a05ff;
+flex: 1 1 auto;
+min-width: 0;
 }
 .pl{
 color: #7a05ff;
+flex: 1 1 auto;
+min-width: 0;
 }
 .container__title-1{
 text-align: left;
 color: #7a05ff;
+flex: 1 1 auto;
+min-width: 0;
 }
 .container__content-1{
 text-align: left;
+flex: 1 1 auto;
+min-width: 0;
 }
 
 .container__subtitle-1{
 text-align: left;
+flex: 1 1 auto;
+min-width: 0;
 }
-
+.container__wrapper{
+display: flex;
+flex-direction: column;
+gap: 0;
+width: 100%;
+}
 /*
 
 TREACT
