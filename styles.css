@@ -216,7 +216,7 @@ justify-content: space-around;
 display: flex;
 max-width:600px;
 width: 100%;
-margin-left: 350px;
+margin-left: 280px;
 }
 
 
@@ -279,7 +279,7 @@ cursor: pointer;
 padding: 10px 8px;
 border: none;
 border-radius: 40px;
-margin-right: 160px;
+margin-right: 60px;
 
 }
 .eml:focus{
@@ -291,7 +291,7 @@ padding: 4px;
 border: 1px solid grey;
 border-radius: 700px;
 margin: 25px 0;
-width: 500px;
+width: 400px;
 height: 46px;
 }
 
@@ -299,8 +299,21 @@ height: 46px;
 width: 100%;
 }
 .container__img{
-width: 520px;
+width: 580px;
+margin-top: 0;
 }
+.container__img-wrapper{
+width: 10%;
+  padding: 0 5px;
+transform: translate(-80px, -60px);
+
+}
+.container__wrapper{
+padding: 0 10px;
+width: 420px;
+}
+
+
 
 
 /*
@@ -315,13 +328,14 @@ position: relative;
 
 .container__info{
 display: flex;
-padding: 12px 24px;
-width: calc(100% / 3);
+padding: 12px 26px;
+width: calc(900px / 3);
 }
 .container__block-1{
 display: flex;
-align-content:stretch;
-margin-left: 100px;
+justify-content: center;
+
+
 }
 .container__content-small{
 text-align: left;
@@ -339,6 +353,7 @@ flex-direction: column;
 padding: 18px;
 border: 1px solid #cccccc;
 border-radius: 50px;
+margin-right: 10px;
 
 }
 /*
@@ -353,27 +368,29 @@ padding: 0 26px;
 }
 
 .img__wrapper{
-margin-right: 600px;
+width: 20px;
+  padding: 0 24px;
+transform: translateX(-632px);
 
 }
 
 .container__img-2{
-position: absolute;
+position: relative;
 width: 520px;
+z-index: 1;
 
-z-index: 2;
 }
 .container__para{
 text-align: left;
 }
 .box_dots{
+position: relative;
 background-image: radial-gradient(#5d35b2 2px, transparent 2px); 
 background-size:5px 5px;
 width: 50px; 
 height: 50px; 
-translate: 500px 310px;
-z-index: 1;
-
+transform: translate(495px, -28px);
+z-index: -1;
 }
 /*
 
@@ -386,33 +403,44 @@ padding: 0 26px;
 }
 
 
-
+.container__wrapper-2{
+padding: 0 10px;
+width: 420px;
+transform: translate(-100px, -50px);
+}
 .box_dots-p{
+position: relative;
 background-image: radial-gradient(rgba(191, 161, 233, 0.4) 3px, transparent 3px);
 background-size:10px 10px;
 width: 150px;
 height: 150px; 
-translate: 98px 220px;
-z-index: 1;
+transform: translate(184px, -96px);
+z-index: -1;
 
 }
 .container__steps-p{
 display: flex;
 flex-direction: column;
 margin-left: 20px;
+line-height: 2;
 }
 
 .container__block--steps{
 display: flex;
+margin: 24px 0;
+
+
 
 }
 .container__title--sub-l{
 font-size: 28px;
 font-weight: 700;
 color: #c0c0c0;
+line-height: 1.6;
 }
 .container__subtitle-l{
 font-size: 20px;
+padding: 2px 0;
 }
 
 /* TESTIMONIAL */
