@@ -45,7 +45,6 @@ border-radius: 50px;
 
 
 
-
 .row {
  width: 100%;
   max-width: 1300px;
@@ -461,18 +460,11 @@ flex-direction: column;
 justify-content:left;
 text-align: left;
 width: 400px;
-tex
+}
 
-}
-.container__sign{
-background-color: #92f792;
-border-radius: 100px;
-padding: 10px;
-stroke: #064821;
-}
-.container__breifcase{
-background-color: #e85555;
-}
+
+
+
 .container__color-logo{
 display: flex;
 margin-top: 8px;
