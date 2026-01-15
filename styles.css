@@ -485,14 +485,14 @@ margin-right: 20px;
 position: relative;
 padding: 0;
 margin: 0;
-width: 650px;
+width: 450px;
 }
 
 .container__img-wrapper-3{
 position: relative;
 display: flex;
 flex-wrap: wrap;
-transform: translate(40px, -70px);
+transform: translate(-20px, -70px);
 padding: 0;
 margin: 0;
 }
