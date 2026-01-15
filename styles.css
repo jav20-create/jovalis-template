@@ -270,7 +270,6 @@ background-color: #7a05ff;
 color: #fff;
 border: none;
 
-
 }
 .btn:hover{
 background-color: rgb(68, 5, 157);
@@ -324,6 +323,7 @@ SALE
 */
 #sale{
 position: relative;
+padding: 0 26px;
 }
 
 
@@ -445,12 +445,91 @@ font-size: 20px;
 padding: 2px 0;
 }
 
-/* TESTIMONIAL */
+/* 
+
+TESTIMONIAL 
+
+*/
 #testimonial{
 position: relative;
 padding: 0 26px;
 }
+.container__wrapper-3{
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content:left;
+text-align: left;
+width: 400px;
+tex
 
+}
+.container__sign{
+background-color: #92f792;
+border-radius: 100px;
+padding: 10px;
+stroke: #064821;
+}
+.container__breifcase{
+background-color: #e85555;
+}
+.container__color-logo{
+display: flex;
+margin-top: 8px;
+
+}
+
+.container__mini-p{
+display: flex;
+flex-direction: column;
+justify-content:left;
+text-align: left;
+
+}
+.color__logo{
+margin-right: 20px;
+}
+.container__img-3{
+position: relative;
+padding: 0;
+margin: 0;
+width: 650px;
+}
+
+.container__img-wrapper-3{
+position: relative;
+display: flex;
+flex-wrap: wrap;
+transform: translate(40px, -70px);
+padding: 0;
+margin: 0;
+}
+
+.btn__2{
+position: relative;
+display: flex;
+justify-content: center;
+background-color: #7a05ff;
+color: #ffffff;
+text-decoration: none;
+border: none;
+border-radius: 40px;
+width: 150px;
+font-size: 20px;
+padding: 10px;
+text-align: center;
+transform: translate(100px, 20px);
+}
+
+.btn__2:hover{
+background-color: #5d35b2;
+}
+
+/* 
+
+ PRICING 
+
+*/
 
 #pricing{
 position: relative;
