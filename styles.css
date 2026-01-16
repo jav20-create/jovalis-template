@@ -9,17 +9,18 @@ html{
 scroll-behavior: smooth;
 }
 h1{
-font-size: 36px;
+font-size: 46px;
+font-weight: 700;
 margin-bottom: 16px;
 
 }
 h2{
-font-size: 28px;
-margin-bottom: 12px;
+font-size: 26px;
+margin-bottom: 16px;
 
 }
 p{
-font-size: 12px;
+font-size: 15px;
 }
 a {
 text-decoration: none;
@@ -102,46 +103,45 @@ align-self: center;
 }
 .container__title--sub{
 text-align: center;
-flex: 1 1 auto;
+
 min-width: 0;
 }
 
 .container__subtitle{
 text-align: center;
-flex: 1 1 auto;
+
 min-width: 0;
 }
 .container__content{
 text-align: center;
-flex: 1 1 auto;
+
 min-width: 0;
 }
 .container__title{
 text-align: center;
 color: #7a05ff;
-flex: 1 1 auto;
+
 min-width: 0;
 }
 .pl{
 color: #7a05ff;
-flex: 1 1 auto;
+
 min-width: 0;
 }
 .container__title-1{
 text-align: left;
 color: #7a05ff;
-flex: 1 1 auto;
+
 min-width: 0;
 }
 .container__content-1{
 text-align: left;
-flex: 1 1 auto;
 min-width: 0;
 }
 
 .container__subtitle-1{
 text-align: left;
-flex: 1 1 auto;
+
 min-width: 0;
 }
 .container__wrapper{
@@ -186,10 +186,11 @@ margin-left: 40px;
 .btn-link{
 display: flex;
 flex-direction: column;
-align-items:center;
+justify-content:center;
+text-align: center;
 max-width: 500px;
 width: 80px;
-height: 24px;
+height: 30px;
 padding-top: 4px;
 background-color: #7a05ff;
 color: #fff;
@@ -216,7 +217,7 @@ justify-content: space-around;
 display: flex;
 max-width:600px;
 width: 100%;
-margin-left: 280px;
+margin-left: 480px;
 }
 
 
@@ -255,7 +256,7 @@ padding: 0 26px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-padding: 0 2px;
+padding: 0 10px;
 }
 .container__content-small{
 color: #333333;
@@ -453,14 +454,7 @@ TESTIMONIAL
 position: relative;
 padding: 0 26px;
 }
-.container__wrapper-3{
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content:left;
-text-align: left;
-width: 400px;
-}
+
 
 
 
@@ -476,10 +470,30 @@ display: flex;
 flex-direction: column;
 justify-content:left;
 text-align: left;
+}
+.color__logo-dollar{
+position: relative;
+margin-right: 20px;
+
+
 
 }
-.color__logo{
+.fa-dollar-sign{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #22f646;
+color: forestgreen;
+height: 40px;
+width: 40px;
+padding: 4px;
+border-radius: 50%;
+
+}
+.color__logo-briefcase{
 margin-right: 20px;
+
 }
 .container__img-3{
 position: relative;
@@ -510,7 +524,8 @@ width: 150px;
 font-size: 20px;
 padding: 10px;
 text-align: center;
-transform: translate(100px, 20px);
+align-self: start;
+margin-top: 8px;
 }
 
 .btn__2:hover{
