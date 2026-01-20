@@ -11,18 +11,18 @@ scroll-behavior: smooth;
 h1{
 position: relative;
 font-size: 48px;
-line-height: 1.25;
+line-height: 1.5;
 
 }
 h2{
 position: relative;
 font-size: 30px;
-line-height: 1.4;
+line-height: 1.6;
 }
 p{
 position: relative;
 font-size: 18px;
-line-height: 1.6;
+line-height: 2;
 }
 a {
 text-decoration: none;
@@ -52,8 +52,9 @@ input{
 border-radius: 50px;
 }
 header{
-position: relative;
-min-height: calc(100vh - 80px);
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 img{
 width: 100%;
@@ -66,9 +67,7 @@ width: 100%;
   margin: 0 auto;
 }
 .subject__row{
-display: flex;
-justify-content: space-between;
-align-items: center;
+
 }
 .subject__row-reverse{
 display: flex;
@@ -82,7 +81,7 @@ flex-direction: row;
 }
 .row-1{
 display: flex;
-margin: 0 auto;
+
 }
 
 .row__small{
@@ -395,6 +394,7 @@ flex-wrap: wrap;
 .container__sale{
 display: flex;
 flex-direction: column;
+margin: 0 12px;
 }
 
 
