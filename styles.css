@@ -39,6 +39,9 @@ nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding: 32px 0;
+
+
 }
 button{
 border-radius: 40px;
@@ -59,7 +62,7 @@ width: 100%;
 
 .row {
  width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .subject__row{
@@ -93,9 +96,7 @@ width: 60%;
 
 }
 .container{
-position: relative;
-display: flex;
-width: 100%;
+padding: 96px 0;
 }
 .container__wrapper{
 display: flex;
@@ -191,12 +192,12 @@ TREACT
 */
 #treact{
 position: relative;
-padding: 0 10px;
+
 }
 .nav__row{
 display: flex;
 flex-wrap: wrap;
-margin-bottom: 40px;
+
 }
 
 .nav__container{
@@ -208,18 +209,18 @@ align-items: center;
 display: flex;
 flex-wrap: wrap;
 align-items: center;
-margin-left: 400px;
+padding-left: 600px;
 }
 .nav__logo{
 font-weight: 900;
-font-size: 26px;
+font-size: 24px;
 margin-left: 12px;
 padding-top: 6px;
 letter-spacing: 0.6px;
 }
 .nav__img{
 max-width: 100%;
-width: 38px;
+width: 40px;
 height: 38px;
 margin-left: 10px;
 }
@@ -300,7 +301,7 @@ TEMPLATES
 
 #templates{
 position: relative;
-padding: 0 10px;
+padding: 0 2px;
 }
 
 
@@ -373,7 +374,7 @@ SALE
 */
 #sale{
 position: relative;
-padding: 0 10px;
+padding: 0 2px;
 }
 
 
@@ -416,7 +417,7 @@ PROFESSION
 
 #profession{
 position: relative;
-padding: 0 26px;
+padding: 0 2px;
 }
 
 .img__wrapper{
@@ -452,7 +453,7 @@ STEPS
 */
 #steps{
 position: relative;
-padding: 0 10px;
+padding: 0 2px;
 }
 .container__row{
 display: flex;
@@ -521,7 +522,7 @@ VALUES
 */
 #values{
 position: relative;
-padding: 0 10px;
+padding: 0 2px;
 }
 
 
@@ -636,7 +637,7 @@ margin: 8px;
 
 #pricing{
 position: relative;
-padding: 0 10px;
+padding: 0 2px;
 }
 .container__block-2{
 display: flex;
@@ -784,7 +785,7 @@ TESTIMONIAL
 */
 #testimonial{
 position: relative;
-padding: 0 10px;
+padding: 0 2px;
 }
 
 .pic-1{
@@ -842,7 +843,7 @@ CALL TO ACTION
 */
 #cta{
 position: relative;
-padding: 0 10px;
+padding: 0 2px;
 }
 .container__subtitle-3{
 font-size: 40px;
@@ -856,7 +857,7 @@ FOOTER
 */
 #footer{
 position: relative;
-padding: 0 10px;
+padding: 0 2px;
 }
 .footer__contain{
 display: flex;
