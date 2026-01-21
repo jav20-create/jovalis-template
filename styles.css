@@ -851,7 +851,7 @@ width: 200px;
 aspect-ratio: 1;
 background: conic-gradient(
 
-    #6105ff 0deg 90deg,     /* Red from 0 to 90 degrees */
+    #6105ff 0deg 90deg,     /* Purple from 0 to 90 degrees */
     transparent 90deg   /* Transparent for the rest */
   );
 transform: translate(-90px, 220px);
@@ -861,6 +861,20 @@ font-size: 40px;
 text-align: left;
 font-weight: 700;
 }
+.curve__design-2{
+
+
+width: 200px;
+ width: 200px;
+  height: 200px;
+  border-radius: 50%;
+aspect-ratio: 1;
+background: conic-gradient(
+
+    #6105ff 0deg 90deg,     /* Purple from 0 to 90 degrees */
+    transparent 90deg   /* Transparent for the rest */
+  );
+transform: translate(890px, -240px) rotate(140deg)}
 /*
 
 FOOTER
