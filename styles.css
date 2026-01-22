@@ -421,10 +421,10 @@ position: relative;
 padding: 0 32px;
 }
 
-.img__wrapper{
-width: 20px;
-  padding: 0 24px;
-transform: translateX(-632px);
+.container__img-wrapper-3{
+width: 100%;
+transform: translate(0, -100px);
+
 
 }
 
@@ -843,20 +843,21 @@ CALL TO ACTION
 #cta{
 position: relative;
 padding: 0 32px;
+background-color: #3905ab;
+overflow: hidden;
 }
 .container-4{
 position: relative;
 display: flex;
-flex-direction: row-reverse;
 justify-content: space-between;
 align-items: center;
 margin: 0 20px;
 }
 .curve__design{
-width: 200px;
-  height: 200px;
+width: 300px;
+  height: 300px;
   border-radius: 50%;
-z-index: -1;
+z-index: 1;
 aspect-ratio: 1;
 
 background: conic-gradient(
@@ -864,20 +865,20 @@ background: conic-gradient(
     #320482 0deg 90deg,     /* Purple from 0 to 90 degrees */
     transparent 90deg   /* Transparent for the rest */
   );
-transform: translate(-90px, 220px);
+transform: translate(-280px, 150px);
 }
 .container__subtitle-3{
 font-size: 40px;
 text-align: left;
 font-weight: 700;
-padding-right: 20px;
+padding-right: 10px;
 }
 .btn__types{
 position: relative;
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-left: 20px;
+padding-left:20px ;
 }
 .rd{
 position: absolute;
@@ -895,18 +896,21 @@ position: absolute;
 width: 136px;
 height: 50px;
 border-radius: 40px;
-background-color: #6105ff;
+background-color: #3905ab;
 color: rgb(999, 999, 999);
 border: 1px solid rgb(999, 999, 999);
 z-index: 1;
 margin: 0 -80px;
 }
+.purp:hover{
+background-color: #ffffff;
+color: #320482;
+}
 .curve__design-2{
-width: 200px;
- width: 200px;
-  height: 200px;
+ width: 300px;
+  height: 300px;
   border-radius: 50%;
-z-index: -1;
+z-index: 1;
 
 aspect-ratio: 1;
 background: conic-gradient(
@@ -914,7 +918,7 @@ background: conic-gradient(
     #320482 0deg 90deg,     /* Purple from 0 to 90 degrees */
     transparent 90deg   /* Transparent for the rest */
   );
-transform: translate(890px, -240px) rotate(140deg)}
+transform: translate(150px, -254px) rotate(136deg)}
 /*
 
 FOOTER
