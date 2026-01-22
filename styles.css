@@ -844,14 +844,24 @@ CALL TO ACTION
 position: relative;
 padding: 0 32px;
 }
+.container-4{
+position: relative;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+margin: 0 20px;
+}
 .curve__design{
 width: 200px;
   height: 200px;
   border-radius: 50%;
+z-index: -1;
 aspect-ratio: 1;
+
 background: conic-gradient(
 
-    #6105ff 0deg 90deg,     /* Purple from 0 to 90 degrees */
+    #320482 0deg 90deg,     /* Purple from 0 to 90 degrees */
     transparent 90deg   /* Transparent for the rest */
   );
 transform: translate(-90px, 220px);
@@ -860,18 +870,48 @@ transform: translate(-90px, 220px);
 font-size: 40px;
 text-align: left;
 font-weight: 700;
+padding-right: 20px;
+}
+.btn__types{
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 20px;
+}
+.rd{
+position: absolute;
+width: 136px;
+height: 50px;
+border-radius: 40px;
+background-color: rgba(255, 5, 5, 0.992);
+color: rgba(999, 999, 999, 1);
+border: none;
+z-index: 1;
+margin: 0 80px;
+}
+.purp{
+position: absolute;
+width: 136px;
+height: 50px;
+border-radius: 40px;
+background-color: #6105ff;
+color: rgb(999, 999, 999);
+border: 1px solid rgb(999, 999, 999);
+z-index: 1;
+margin: 0 -80px;
 }
 .curve__design-2{
-
-
 width: 200px;
  width: 200px;
   height: 200px;
   border-radius: 50%;
+z-index: -1;
+
 aspect-ratio: 1;
 background: conic-gradient(
 
-    #6105ff 0deg 90deg,     /* Purple from 0 to 90 degrees */
+    #320482 0deg 90deg,     /* Purple from 0 to 90 degrees */
     transparent 90deg   /* Transparent for the rest */
   );
 transform: translate(890px, -240px) rotate(140deg)}
