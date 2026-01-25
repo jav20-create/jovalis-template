@@ -222,15 +222,15 @@ padding-left: 500px;
 }
 .nav__logo{
 font-weight: 900;
-font-size: 26px;
+font-size: 24px;
 margin-left: 12px;
 padding-top: px;
 letter-spacing: 0.6px;
 }
 .nav__img{
 max-width: 100%;
-width: 42px;
-height: 38px;
+width: 40px;
+height: 40px;
 }
 
 
@@ -985,6 +985,12 @@ align-items: center;
 color: #ffffff;
 padding: 0 25px;
 }
+.container__title--sub-wht{
+font-size: 18px;
+font-weight: 900;
+padding-left: 10px;
+letter-spacing: 0.6px;
+}
 .footer__lists{
 padding: 0 24px;
 }
@@ -995,5 +1001,5 @@ text-align: left;
 display: flex;
 }
 .logo-2-0{
-    width: 40px;
+    width: 32px;
 }
