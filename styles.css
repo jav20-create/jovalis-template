@@ -1101,9 +1101,7 @@ z-index: 1;
 transform: translate(1081px, -44px);}
 
 @media (max-width: 720px) {
-  .row {
-    flex-direction: column;
-  }
+  
 
 h1{
 font-size: 30px;
