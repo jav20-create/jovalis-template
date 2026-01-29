@@ -365,16 +365,17 @@ font-weight: 700;
 }
 
 .btn{
-        width: 100px; /* Initial fixed width */
-  padding: 12px;
-    
+                   width: 100px;
+    padding: 15px;
     background-color: #6105ff;
     color: #fff;
     border: none;
-     border-radius: 8px;
-    transition:  transition: width 0.4s ease-in-out, margin-top 0.4s ease-in-out, transform 0.4s ease-in-out;
+    border-radius: 28px;
+    transition: all .4s ease-in-out;
     z-index: 2;
     position: absolute;
+    margin: 4px 326px;
+    transition: all 500ms ease-in-out;
 }
 .btn:hover{
 background-color: rgb(38, 2, 130);
@@ -382,11 +383,13 @@ cursor: pointer;
 }
 .eml{
 
-min-width: 150px;      /* Keeps input usable */
-  padding: 12px;
-  border-radius: 8px;
-border: 1px solid rgb(114, 137, 169);
-
+    position: absolute;
+    display: flex;
+    min-width: 150px;
+    padding: 18px 100px;
+    border-radius: 40px;
+    border: 1px solid rgb(114, 137, 169);
+    margin: 0px -16px;
 
 
 
@@ -394,15 +397,16 @@ border: 1px solid rgb(114, 137, 169);
 
 .container__form{
 
-display: flex;
-        /* Essential for moving the button downward */
-  gap: 10px;
-  width: 40%;            /* Your specific container width */
-  margin: 0 auto;        /* Optional: Centers the 40% container on page */
-  min-width: 300px;
+    display: flex;
+    gap: 10px;
+    width: 40%;
+    margin: 38px auto;
+    min-width: 300px;
 }
-.form__wrapper{
-flex-wrap: wrap; /* Allows the button to wrap to the next line */
+.form-wrapper{
+display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 20px;
 }
 .container__img-logo{
 margin-top: 16px;
@@ -1174,21 +1178,29 @@ width: 90%;
 
 }
 .eml{
-    display: block;
-    border: 1 solid rgb(114, 137, 169);
-    border-radius: 40px;
-    width: 476px;
-    align-self: center;
-    margin: 0 -170px;
+    
+          width: 82%;
+    height: 42px;
+    /* scale: 0.8.9; */
+    /* margin: 0 -24px; */
     z-index: 2;
-    position: absolute;
-}
+    transform: translate(-100px, 10px) scale(.5);
+    padding: 2%;
 .btn{
-    /* max-width: 550px; */
-   width: 100%;       /* Expands to full width */
-    margin-top: 5px;
-    transform:translateY(5px);
+          width: 41%;
+    height: 24px;
+    /* scale: 1.3.9.9; */
+    max-width: 332px;
+    /* margin: 27px -5px; */
+    transform: translate(-231px, 43px) scale(1);
+    padding: 1%;
+    font-size: 8px;
 }
 
+.form-wrapper{
+        display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 109px 3px;
 
+}
 }
