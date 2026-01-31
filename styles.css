@@ -291,9 +291,9 @@ text-decoration-color: #7a05ff;
 text-decoration-thickness: calc(0.1em + 1px);
 }
 .btn_menu{
-    background-color: transparent;
+        background-color: transparent;
     font-size: 24px;
-    margin-left: -196px;
+    margin-left: -40px;
     margin-top: -40px;
     text-align: center;
     border: none;
@@ -301,19 +301,19 @@ text-decoration-thickness: calc(0.1em + 1px);
     display: none;
 }
 .menu_backdrop {
-position: absolute;
-background-color: #ffffff;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-z-index: 100;
-display: flex;
-justify-content: center;
-align-items: center;
-transition: all 300ms ease;
-opacity: 0;
-visibility: hidden;
+    position: absolute;
+    background-color: #ffffff;
+    top: 38px;
+    left: 0;
+    right: 0;
+    bottom: 115px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
 }
 .menu--open .menu_backdrop{
 visibility: visible;
@@ -323,6 +323,7 @@ opacity: 2;
 max-height: 100vh;
 overflow-y: hidden;
 }
+
 .menu_links{
 display: flex;
 flex-direction: column;
@@ -486,7 +487,16 @@ transform: translate(0, -100px);
 
 
 }
-
+.btn-1{
+     width: 100px;
+    background-color: #6105ff;
+    color: #fff;
+    border: none;
+    border-radius: 28px;
+    position: absolute;
+    margin: 261px -8px;
+    height: 40px;
+}
 .container__img-2{
 position: relative;
 width: 580px;
@@ -1118,7 +1128,7 @@ h3{
 font-size: calc(100% - 36px);
 }
 button {
-font-size: ;
+font-size: calc(100% - 20px);
 }
 img {
 width: 100%;
