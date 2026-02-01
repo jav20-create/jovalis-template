@@ -1227,6 +1227,16 @@ align-items: center;
 display: flex;
 flex-direction: column;
 }
+.container__color-content{
+display: flex;
+flex-direction: row;
+
+}
+.color__logo-dollar,
+.color__logo-briefcase
+{
+width: 124px;
+}
 .container__pricing--green,
 .container__pricing--purple,
 .container__pricing--red-coral{
@@ -1290,5 +1300,13 @@ padding: 3% 32% ;    z-index: 2;
 width: 100%;
 min-width: 390px;
 }
+.container__color-logo{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 }
