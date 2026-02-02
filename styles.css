@@ -211,10 +211,12 @@ flex-wrap: wrap;
 align-items: center;
 }
 .nav__wrapper{
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-padding-left: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding-left: 500px; */
+    margin: -41px 0px 0 375px;
+    /* justify-content: right; */
 }
 .nav__logo{
 font-weight: 900;
@@ -1347,6 +1349,15 @@ width: 100%;
 max-width: 700px;
 height: 250px;
 transform: translate(20px 5px);
+}
+#cta{
+    position: relative;
+    background-color: #6415ff;
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+    height: 320px;
+    transform: translate(23px, 55px);
 }
 }
 @media (max-width: 550px) {
