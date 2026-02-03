@@ -943,10 +943,12 @@ CALL TO ACTION
     max-width: 1216px;
     height: 320px;
     transform: translate(80px, 10px);
+    transition: all 500ms ease;
 }
 .row-4{
 width: 1280px;
 height: 320px;
+
 }
 .container-4{
 position: relative;
@@ -964,6 +966,7 @@ width: 300px;
 z-index: 1;
   background: radial-gradient(circle, #590af7 70%, transparent 70%);
 transform: translate(-130px, 12px);
+
 }
 .container__content-btn-title{
     position: absolute;
@@ -977,12 +980,12 @@ transform: translate(-130px, 12px);
     z-index: 2;
 }
 .container__subtitle-3{
-
 font-size: 30px;
 text-align: left;
 font-weight: 700;
 padding-right: 10px;
 color: #ffffff;
+
 }
 .btn__types{
 position: relative;
@@ -1001,6 +1004,7 @@ color: rgba(999, 999, 999, 1);
 border: none;
 z-index: 1;
 margin: 0 80px;
+
 }
 .purp{
 position: absolute;
@@ -1012,6 +1016,7 @@ color: rgb(999, 999, 999);
 border: 1px solid rgb(999, 999, 999);
 z-index: 1;
 margin: 0 -80px;
+
 }
 .purp:hover{
 background-color: #ffffff;
@@ -1022,11 +1027,9 @@ color: #590af7;
   height: 300px;
   border-radius: 50%;
 z-index: 1;
-
-
-
   background: radial-gradient(circle,  #590af7 70%, transparent 70%);
-transform: translate(948px, -570px) rotate(136deg);}
+transform: translate(948px, -570px) rotate(136deg) ;
+}
 
 /*
 
@@ -1128,7 +1131,25 @@ transform: translate(1128px, 2px);
 }
 @media(max-width: 1024px){
 
+#cta,
 
+.row-4,
+.container-4,
+.curve__design,
+.container__content-btn-title,
+.container__subtitle-3,
+.btn__types,
+.rd,
+.purp,
+.curve__design-2{
+transform: scale(.9);
+}
+h1
+h3
+p
+{
+transform: scaleX(.9);
+}
 }
 /* Removed invalid @media rule */
 
@@ -1136,22 +1157,22 @@ transform: translate(1128px, 2px);
   
 
 h1{
-font-size: 100%;
+transform: scale(.9)
 }
 h3{
-    font-size: 100%;}
+    transform: scale(.9)}
 button {
-font-size: 100%;
+transform: scale(.9);
 }
 img {
-width: 100%;
+transform: scale(.9);
 }
 header{
 display: flex;
 flex-direction: column;
 }
 p{    position: relative;
-    font-size: 100%;
+    transform: scale(.9)
     line-height: 1.625;
     /* text-align: center; */
 }
