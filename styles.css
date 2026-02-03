@@ -150,9 +150,9 @@ width: 100%;
 min-width: 0;
 }
 .container__content{
-text-align: center;
-width: 100%;
-min-width: 0;
+    text-align: left;
+    width: 100%;
+    min-width: 0;
 }
 .container__title{
 text-align: center;
@@ -206,16 +206,17 @@ flex-wrap: wrap;
 }
 
 .nav__container{
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-}
-.nav__wrapper{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: -10px 0 28px -4px;
+}
+.nav__wrapper{
+       display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     /* padding-left: 500px; */
-    margin: -41px 0px 0 375px;
+    margin: -54px 0px 0 456px;
     /* justify-content: right; */
 }
 .nav__logo{
@@ -575,8 +576,11 @@ color: #c0c0c0;
 font-size: 20px;
 }
 .container__content-l{
-font-size: 15px;
-color: rgb(114, 137, 169);
+    /* font-size: 15px; */
+    color: rgb(114, 137, 169);
+    width: 100%;
+    /* max-width: 622px; */
+    /* text-align: left; */
 }
 .container__img-wrapper-4{
 position: relative;
@@ -617,16 +621,19 @@ flex-direction: column;
 justify-content:left;
 text-align: left;
 }
-.color__logo-dollar{
-position: relative;
+.logo__style{
 display: flex;
-flex-direction: column;
-align-items: center;
-margin-right: 20px;
-width: 80px;
-height: 40px;
-background-color: rgb(73, 246, 73);
-border-radius: 50%;
+}
+.color__logo-dollar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 1px; */
+    width: 40px;
+    height: 40px;
+    background-color: rgb(73, 246, 73);
+    border-radius: 50%;
 }
 .fa-dollar-sign{
 position: relative;
@@ -641,15 +648,15 @@ transform: translateY(12px);
 
 }
 .color__logo-briefcase{
-position: relative;
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-right: 20px;
-width: 80px;
-height: 40px;
-background-color: rgb(240, 120, 118);
-border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 20px; */
+    width: 40px;
+    height: 40px;
+    background-color: rgb(240, 120, 118);
+    border-radius: 50%;
 }
 .fa-briefcase{
 position: relative;
@@ -929,14 +936,13 @@ CALL TO ACTION
 
 */
 #cta{
-position: relative;
-
-background-color: #6415ff;
-overflow: hidden;
-width: 100%;
-max-width: 1280px;
-height: 320px;
-transform: translate(80px, 10px);
+    position: relative;
+    background-color: #6415ff;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1216px;
+    height: 320px;
+    transform: translate(80px, 10px);
 }
 .row-4{
 width: 1280px;
@@ -1120,17 +1126,22 @@ z-index: 1;
   background: radial-gradient(circle, #590af7 70%, transparent 70%);
 transform: translate(1128px, 2px);
 }
+@media(max-width: 1024px){
+
+
+}
+/* Removed invalid @media rule */
 
 @media (max-width: 720px) {
   
 
 h1{
-font-size: calc(100% - 56px);
+font-size: 100%;
 }
 h3{
     font-size: 100%;}
 button {
-font-size: calc(100% - 2px);
+font-size: 100%;
 }
 img {
 width: 100%;
