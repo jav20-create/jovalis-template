@@ -201,7 +201,7 @@ padding: 0 32px;
 }
 .nav__row{
 display: flex;
-flex-wrap: wrap;
+flex-wrap:wrap;
 
 }
 
@@ -213,11 +213,10 @@ flex-wrap: wrap;
 }
 .nav__wrapper{
        display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    /* padding-left: 500px; */
-    margin: -54px 0px 0 456px;
-    /* justify-content: right; */
+       /* flex-wrap: wrap; */
+       align-items: center;
+       /* padding-left: 500px; */
+       margin: -21% 28% -4% 161%;
 }
 .nav__logo{
 font-weight: 900;
@@ -251,14 +250,14 @@ background-color: rgb(38, 2, 130);
 }
 .nav-actions{
 display: flex;
-flex-wrap: wrap;
+
 
 }
 
 
 .nav-links{
 display: flex;
-flex-wrap: wrap;
+
 }
 
 
@@ -936,20 +935,20 @@ CALL TO ACTION
 
 */
 #cta{
-    position: relative;
+ padding: 200px 36px;   
+}
+.cta__wrap{
+position: relative;
     background-color: #6415ff;
+display: flex;
+flex-wrap: wrap;
     overflow: hidden;
-    width: 100%;
-    max-width: 1216px;
-    height: 320px;
-    transform: translate(80px, 10px);
-    transition: all 500ms ease;
+    
+transition: transform 500ms ease;
 }
-.row-4{
-width: 1280px;
-height: 320px;
 
-}
+
+
 .container-4{
 position: relative;
 display: flex;
@@ -965,19 +964,17 @@ width: 300px;
   border-radius: 50%;
 z-index: 1;
   background: radial-gradient(circle, #590af7 70%, transparent 70%);
-transform: translate(-130px, 12px);
+transform: translate(1%, 1%);
 
 }
 .container__content-btn-title{
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-     width: 785px;
-    height: 416px;    
-    margin: -324px 100px;
-    padding-bottom: 200px;
-    z-index: 2;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 10% 10% 12% -14%;
+        z-index: 2;
 }
 .container__subtitle-3{
 font-size: 30px;
@@ -988,11 +985,11 @@ color: #ffffff;
 
 }
 .btn__types{
-position: relative;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-left:20px ;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -2% -11% -2% 14%;
 }
 .rd{
 position: absolute;
@@ -1028,7 +1025,7 @@ color: #590af7;
   border-radius: 50%;
 z-index: 1;
   background: radial-gradient(circle,  #590af7 70%, transparent 70%);
-transform: translate(948px, -570px) rotate(136deg) ;
+transform: translate(1%, 1%) rotate(136deg) ;
 }
 
 /*
@@ -1131,24 +1128,30 @@ transform: translate(1128px, 2px);
 }
 @media(max-width: 1024px){
 
-#cta,
-
-.row-4,
-.container-4,
-.curve__design,
-.container__content-btn-title,
-.container__subtitle-3,
-.btn__types,
-.rd,
-.purp,
-.curve__design-2{
-transform: scale(.9);
-}
 h1
 h3
 p
 {
-transform: scaleX(.9);
+transform: scaleX(1);
+}
+.cta__wrap{
+transform: scale(.9);
+}
+.container__content-btn-title{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transform: scale(.9);
+
+}
+.container__subtitle-3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin: -10% -12% 14% 20%;
+   
 }
 }
 /* Removed invalid @media rule */
@@ -1157,22 +1160,21 @@ transform: scaleX(.9);
   
 
 h1{
-transform: scale(.9)
+transform: scale(1)
 }
 h3{
-    transform: scale(.9)}
+    transform: scale(1)}
 button {
-transform: scale(.9);
+transform: scale(1);
 }
 img {
-transform: scale(.9);
+transform: scale(1);
 }
 header{
 display: flex;
 flex-direction: column;
 }
 p{    position: relative;
-    transform: scale(.9)
     line-height: 1.625;
     /* text-align: center; */
 }
@@ -1373,23 +1375,9 @@ width: 100%;
     min-width: 400px;
 margin: 2px 0px 0 -50px;}
 #cta{
-position: relative;
 
-background-color: #6415ff;
-overflow: hidden;
-width: 100%;
-max-width: 700px;
-height: 250px;
-transform: translate(20px 5px);
 }
-#cta{
-    position: relative;
-    background-color: #6415ff;
-    overflow: hidden;
-    width: 100%;
-    max-width: 700px;
-    height: 320px;
-    transform: translate(23px, 55px);
+;
 }
 }
 @media (max-width: 550px) {
