@@ -212,11 +212,12 @@ flex-wrap:wrap;
     margin: -10px 0 28px -4px;
 }
 .nav__wrapper{
-       display: flex;
-       /* flex-wrap: wrap; */
-       align-items: center;
-       /* padding-left: 500px; */
-       margin: -21% 28% -4% 161%;
+           display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding-left: 500px; */
+    margin: -20% 28% -4% 123%;
+    justify-content: space-between;
 }
 .nav__logo{
 font-weight: 900;
@@ -256,7 +257,8 @@ display: flex;
 
 
 .nav-links{
-display: flex;
+    display: flex;
+    margin: 0% 0% 0% -42%;
 
 }
 
@@ -295,7 +297,7 @@ text-decoration-thickness: calc(0.1em + 1px);
 .btn_menu{
         background-color: transparent;
     font-size: 24px;
-    margin-left: -100px;
+    margin-left: 1285%;
     margin-top: -40px;
     text-align: center;
     border: none;
