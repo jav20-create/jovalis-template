@@ -413,13 +413,15 @@ cursor: pointer;
     min-width: 300px;
 }
 .form-wrapper{
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
     padding: 0px 0px 59px 122px;
+    margin: -6% 1% -3% -20%;
 }
 .container__img-logo{
 margin-top: 16px;
 padding-right: 128px;
+min-width: 500px;
 opacity: 0.5;
 }
 .container__img{
@@ -545,6 +547,7 @@ align-items: center;
 .container__block--content{
 display: flex;
 flex-direction: column;
+padding: 4%;
 }
 
 
@@ -564,20 +567,22 @@ height: 400px;
     z-index: -1;
 }
 .container__steps-p{
-display: flex;
-flex-direction: column;
-margin-left: 20px;
-line-height: 2;
+    display: flex;
+    flex-direction: column;
+    margin: -10% 0% -1% 17%;
+    line-height: 2;
 }
 
 .container__block--steps{
 display: flex;
 flex-wrap: wrap;
+margin: 4%;
 }
 .container__title--sub-l{
-font-size: 30px;
-font-weight: 700;
-color: #c0c0c0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #c0c0c0;
+    margin: 0% 0% 2% 2%;
 }
 .container__subtitle-l{
 font-size: 20px;
@@ -590,9 +595,10 @@ font-size: 20px;
     /* text-align: left; */
 }
 .container__img-wrapper-4{
-position: relative;
-display: flex;
-margin: 0 -50px;
+    position: relative;
+    display: flex;
+    margin: 0 -16% 0 -4%;
+    padding: 10%;
 
 
 
@@ -1145,6 +1151,9 @@ transform: scaleX(.9);
 header{
 flex-direction: column;
 }
+.header__img-wrapper{
+margin-top: 8%;
+}
 .container__form{
 transform: scale(.9);
 }
@@ -1195,8 +1204,8 @@ flex-direction: column-reverse;
     flex-direction: column;
     width: 50%;
     min-width: 520px;
-    margin: 0 20px;
-}
+        margin: 0 20px;}
+
 .footer__contain{
     display: flex;
     flex-direction: column;
@@ -1204,10 +1213,15 @@ flex-direction: column-reverse;
     align-items: flex-start;
     width: calc(100% / 3);
     z-index: 1;
-justify-content: center;
+}
+.container__block--content{
+       display: flex;
+    flex-direction: column;
+    padding: 14% 24% 5% 1%;
+}
     
 }
-}
+
 /* Removed invalid @media rule */
 
 @media (max-width: 720px) {
@@ -1507,10 +1521,10 @@ width: 100%;
 }
 
 .form-wrapper{
-        display: flex;
+           display: flex;
     flex-wrap: wrap;
     padding: 0px 0px 109px 3px;
-
+    margin: 0% 0% 0% 30%;
 }
 .container__sale{
     display: flex;
