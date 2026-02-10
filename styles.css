@@ -1172,6 +1172,9 @@ align-items: center;
 transform: scale(.9);
 
 }
+.nav__row{
+margin: 5% 48% 0% 2%;
+}
 .nav-link{
 transform: scale(.9);
 }
