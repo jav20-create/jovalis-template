@@ -1189,8 +1189,8 @@ transform: scale(.9);
     border-radius: 40px;
     z-index: 2;
     position: absolute;
-    margin: 3px 405px;
-    height: 270%;
+margin: 4px 286px;   
+ height: 270%;
 }
 .nav__row{
     margin: 5% 10% 0% 0%;
@@ -1436,17 +1436,18 @@ padding: 20%;
     margin: -22% -69%;
 }
 .btn{  
-                position: absolute;
-    display: flex;
+           display: flex;
+    width: 54%;
+    padding: 9% 14% 3% 17%;
     white-space: nowrap;
-    width: 48%;
-    min-width: 170px;
-    /* text-align: center; */
-    padding: 10% 20% 12% 9%;
-    border-radius: 40px;
+    background-color: #6105ff;
+    color: #fff;
     border: none;
-    margin: -21% 56% -10% 57%;
-height: 3%;
+    border-radius: 40px;
+    z-index: 2;
+    position: absolute;
+    margin: -64px 177px;
+    height: 34%;
 }
 
 .icon{
