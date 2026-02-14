@@ -28,11 +28,7 @@ a {
 text-decoration: none;
 
 }
-main{
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 ul{
 list-style-type: none;
@@ -55,10 +51,7 @@ input{
 border-radius: 50px;
 }
 header{
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
+height: calc(100vh - 80px);
 }
 img{
 width: 100%;
@@ -99,7 +92,16 @@ padding: 20px 0;
 margin: 0 100px;
 }
 .header__content{
-width: 40%;
+    padding-top: 24px;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+flex-wrap: wrap;
+    justify-content: space-around;}
+.header__discription{
+padding: 0 24px;
 }
 .header__img{
 width: 60%;
@@ -373,7 +375,9 @@ position: relative;
 padding: 0 32px;
 }
 
-
+.header__container{
+width: 40%;
+}
 
 .container__content-small{
 color:  rgb(114, 137, 169);
@@ -1327,20 +1331,10 @@ display: flex;
 
 /* Removed invalid @media rule */
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   
 
-h1{
-transform: scale(.8)
-}
-h3{
-    transform: scale(.8)}
-button {
-transform: scale(1);
-}
-img {
-transform: scale(.9);
-}
+
 header{
 display: flex;
 flex-direction: column;
