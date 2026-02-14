@@ -42,7 +42,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5% 5%;
+    padding: 2% 2%;
 
 
 }
@@ -211,7 +211,7 @@ padding: 0 32px;
 display: flex;
 flex-wrap:wrap;
 align-items: center;
-padding: 5% 46% 0% 0%;
+padding: 3% 61% 0% 0%;
 }
 
 .nav__container{
@@ -224,7 +224,7 @@ padding: 5% 46% 0% 0%;
           display: flex;
     align-items: center;
     padding: 1% 4% 8% 22%;
-    margin: -32% 2% -18% 132%;
+margin: -29% 0% -18% 198%;
 }
 .nav__logo{
 font-weight: 900;
@@ -1159,7 +1159,8 @@ header{
 flex-direction: column;
 }
 .header__content{
-width: 100%;
+    width: 100%;
+    min-width: 1025px;
 }
 .header__img-wrapper{
 margin-top: 8%;
@@ -1182,7 +1183,7 @@ transform: scale(.9);
 .btn{
           display: flex;
     width: 50%;
-    padding: 6% 19% 0% 15%;
+    padding: 7% 17% 0% 18%;
     white-space: nowrap;
     background-color: #6105ff;
     color: #fff;
@@ -1190,8 +1191,14 @@ transform: scale(.9);
     border-radius: 40px;
     z-index: 2;
     position: absolute;
-margin: 3px 426px;   
+margin: 3px 469px;   
  height: 270%;
+}
+.container__content-small{
+    color: rgb(114, 137, 169);
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0% 6%;
 }
 .nav__row{
     margin: 5% 10% 0% 0%;
@@ -1242,14 +1249,12 @@ display: none;
 }
 .btn_menu{
 display: block;
-    margin: -75% 325% 0% 991%;
+margin: -75% 325% 0% 1115%;
 }
 .box_dots{
     position: relative;
     background-image: radial-gradient(#6415ff 2px, transparent 0);
     background-size: 8px 8px;
-    /* width: 25%; */
-    /* height: 25%; */
     margin: -5% 4% -2% 85%;
     z-index: 1;
     padding: 5% 5%;}
@@ -1353,6 +1358,7 @@ p{    position: relative;
     height: 100%;
     flex-wrap: wrap;
     align-content: center;
+margin: -175% 0% 0% 0%;
 }
 .container__img{
     min-width: 233px;
@@ -1377,8 +1383,9 @@ margin: 0 0 -26% 4%;
 }
 .container__colom{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
+    margin: 18% 0%;
 }
 .btn-link{
 display: none;
@@ -1456,20 +1463,18 @@ padding: 20%;
 }
 .eml{
 
-         position: absolute;
+             position: absolute;
     display: flex;
-    width: 184%;
-    /* white-space: nowrap; */
+    width: 136%;
     min-width: 150px;
-    padding: 8% 38% 10% 33%;
-    /* border-radius: 40px; */
+    padding: 8% 38% 8% 52%;   
     border: 1px solid rgb(114, 137, 169);
     margin: -22% -69%;
 }
 .btn{  
-           display: flex;
-    width: 54%;
-    padding: 9% 14% 3% 17%;
+               display: flex;
+    width: 50%;
+    padding: 7% 14% 2% 17%;
     white-space: nowrap;
     background-color: #6105ff;
     color: #fff;
@@ -1477,8 +1482,8 @@ padding: 20%;
     border-radius: 40px;
     z-index: 2;
     position: absolute;
-    margin: -64px 177px;
-    height: 34%;
+    margin: -22% 17%;
+    height: 28%;
 }
 
 .icon{
@@ -1498,11 +1503,13 @@ flex-direction: column-reverse;
     margin: 0 -116px;
 }
 .box_dots{
-transform: translate(122%, 258%);    
+transform: translate(-170%, -38%);
     width: 58%;
     height: 58%;
 
 }
+.container__img-wrapper-3{
+margin: -337%  35% 0% 65%;}
   .container__img-wrapper-4{
 margin: 0 30px 0 124px;
 
@@ -1521,14 +1528,20 @@ align-items: center;
     background-size: 10px 10px;
     width: 100%;
     height: 100%;
-transform: translate(-126%, 216%);   
- z-index: auto;
-}
-.container__block--content{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: -291% 0% 0% 16%;
+    flex-wrap: wrap; z-index: auto;
+}
+.container__block--content{
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: -291% 0% 0% 16%;
+    flex-wrap: wrap;
 }
 .container__steps-p{
     display: flex;
@@ -1627,26 +1640,20 @@ width: 100%;
 .eml{
            width: 100%;
     max-width: 446px;
-    padding: 4% 19%;
+    padding: 3% 14%;
     margin: -6% 0% 0 -28%;
     text-align: center;
-    /* align-items: center; */
 }
 .btn{
         width: 100%;
     height: auto;
-    padding: 6% 14% 6% 38%;
-    /* min-width: 354px; */
+padding: 4% 8% 4% 19%;   
     white-space: nowrap;
     max-width: 446px;
-    /* border-radius: 25px; */
-    /* transform: translate(-266px, 39px) scale(1); */
     font-size: 16px;
     line-height: .5;
-    /* flex-shrink: 1; */
     border-radius: 40px;
     margin: 12% 0% 16% -28%;
-    /* text-align: center; *//
 }
 
 .form-wrapper{
