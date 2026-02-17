@@ -1388,6 +1388,15 @@ display: flex;
     margin: 65% 30%;
     height: 5%;
 }
+.curve__design-2{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 1;
+    background: radial-gradient(circle,  #590af7 70%, transparent 70%);
+    /* transform: translate(calc(50vw - 150px), 50%) rotate(135deg); */
+    margin: -17% -5% -21% 60%;}
 }
 
 /* Removed invalid @media rule */
