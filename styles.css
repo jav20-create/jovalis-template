@@ -1334,6 +1334,31 @@ display: flex;
     width: 106%;
     margin: 2%;
 }
+.container__subtitle-3{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 700;
+    padding-right: 10px;
+    color: #ffffff;
+    margin: 0% 6%;
+}
+.btn__types{
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -2% 1% -2% 14%;}
+.container__content-btn-title{
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 76%;
+    height: auto;
+    margin: 9% 10% 12% -3%;
+    z-index: 2;}
+
 .footer__contain{
     display: flex;
     flex-direction: column;
@@ -1649,7 +1674,14 @@ width: 100%;
     width: 100%;
     min-width: 400px;
 }
+.curve__design-2{
 
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 1;
+    background: radial-gradient(circle,  #590af7 70%, transparent 70%);
+    margin: -17% -5% -21% 60%;}
 }
 
 @media (max-width: 550px) {
