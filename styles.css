@@ -193,7 +193,6 @@ min-width: 0;
     color: #6105ff;
     width: 100%;
     min-width: 0;
-    margin: 0% -1% 0% 20%;
     font-size: 16px;
 }
 .container__content-1{
@@ -532,9 +531,11 @@ transform: translate(0, -100px);
     height: 6%;
 }
 .container__img-2{
-    position: relative;
-    width: 100%;
+        position: relative;
+    width: 136%;
     z-index: 2;
+    padding: 2%;
+    margin: 0 -183px;
 
 }
 .container__wrapper-3{
@@ -546,11 +547,10 @@ z-index: -1;
         position: relative;
     background-image: radial-gradient(#6415ff 2px, transparent 0);
     background-size: 8px 8px;
-    /* width: 25%; */
-    /* height: 25%; */
-    margin: -5% 4% -2% 85%;
+
+    margin: -5% 4% -2% 95%;
     z-index: 1;
-    padding: 5% 5%;
+    padding: 5%;
 }
 /*
 
@@ -582,9 +582,8 @@ height: 400px;
     position: relative;
     background-image: radial-gradient( rgba(100, 21, 255, 0.4) 3px, transparent 0px);
     background-size: 10px 10px;
-    width: 20%;
-    /* height: 73%; */
-    margin: 20% 43% -13% -55%;
+   padding: 8%;
+margin: 20% 43% -10% -43%;
     z-index: -1;
 }
 .container__steps-p{
@@ -638,6 +637,7 @@ position: relative;
 
 .container__color-logo{
 display: flex;
+flex-wrap: wrap;
 flex-direction: row;
 justify-content: left;
 align-items: left;
@@ -648,11 +648,17 @@ width: 700px;
 
 }
 
-.container__mini-p{
+.container__mini-p-dollar{
 display: flex;
 flex-direction: column;
 justify-content:left;
 text-align: left;
+}
+.container__mini-p-briefcase{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+margin: -362px 91px -122px 83px;
 }
 .logo__style{
 display: flex;
@@ -700,8 +706,10 @@ color: rgb(169, 6, 6);
 transform: translateY(12px);
 }
 .container__img-3{
-position: relative;
-width: 580px;
+    position: relative;
+    width: 100%;
+    margin: -208px;
+    min-width: 962px;
 }
 
 .container__img-wrapper-3{
@@ -709,7 +717,10 @@ position: relative;
 display: flex;
 flex-wrap: wrap;
 padding: 2%;
-margin: 44%;
+margin: 7%;
+}
+btn__wrapper{
+margin: 129px 0;
 }
 
 .btn__2{
@@ -750,10 +761,11 @@ margin: 8px;
 position: relative;
 }
 .container__colom{
-display: flex;
-flex-direction: column;
-text-align: center;
-margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 12px;
+    align-items: center;
 }
 .container__block-2{
 display: flex;
