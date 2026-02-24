@@ -10,7 +10,7 @@ scroll-behavior: smooth;
 }
 h1{
        position: relative;
-    font-size: calc(10px + 2vw);
+    font-size: calc(14px + 2vw);
     line-height: 1.25;
 
 }
@@ -24,7 +24,7 @@ line-height: 1.5;
 }
 p{
     position: relative;
-    font-size: calc(2vw - 12px);
+    font-size: calc(2vw - 10px);
     line-height: 1.625;
 }
 a {
@@ -393,6 +393,10 @@ position: relative;
 .header__container{
 width: 40%;
 }
+.header__description{
+    width: 100%;
+    min-width: 500px;
+}
 
 .container__content-small{
          position: absolute;
@@ -400,7 +404,8 @@ width: 40%;
     font-size: 18px;
     font-weight: 700;
     padding: 1%;
-    margin: 364px 30px 10px -214px;;}
+    margin: 322px 30px 10px -214px;
+}
 
 .btn{
                       width: 104px;
@@ -449,7 +454,7 @@ cursor: pointer;
        width: 100%;
     position: absolute;
     padding: 2% 2% 0% 1%;
-    margin: 30px 49px -12px -234px;
+    margin: 30px 49px -12px -378px;
     max-width: 532px;
     opacity: 0.5;
 }
