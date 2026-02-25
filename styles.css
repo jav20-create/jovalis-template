@@ -439,10 +439,10 @@ cursor: pointer;
 
 .container__form{
 
-             display: flex;
+       display: flex;
     flex-wrap: wrap;
     padding: 0 0 16% 21%;
-    margin: -35px -9px -2px -41px;
+    margin: -112px 265px -2px -86px;
 }
 .form-wrapper{
             display: flex;
@@ -541,11 +541,11 @@ transform: translate(0, -100px);
     height: 6%;
 }
 .container__img-2{
-      position: relative;
-    width: 136%;
+       position: relative;
+    width: 122%;
     z-index: 2;
     padding: 2%;
-    margin: -5px -207px;
+    margin: -5px -170px;
 
 }
 .container__wrapper-3{
@@ -557,7 +557,7 @@ z-index: -1;
       position: relative;
     background-image: radial-gradient(#6415ff 2px, transparent 0);
     background-size: 8px 8px;
-    margin: 426px -9px -30px 164px;
+    margin: 426px -9px -28px 128px;
     z-index: 1;
     padding: 6%;
 }
@@ -668,10 +668,11 @@ position: relative;
     padding: 2% 53% 1% 1%;
 }
 .container__mini-p-briefcase{
-       display: flex;
+            display: flex;
     flex-direction: column;
     text-align: left;
-    margin: -152px -61px -124px 281px;
+    padding: 1% 2% 1% 1%;
+    margin: -174px -54px -124px 275px;
 }
 .logo__style{
 display: flex;
@@ -686,6 +687,7 @@ display: flex;
     height: 40px;
     background-color: rgb(73, 246, 73);
     border-radius: 50%;
+    padding: 0% 3%;
 }
 .fa-dollar-sign{
 position: relative;
@@ -709,6 +711,7 @@ transform: translateY(12px);
     height: 40px;
     background-color: rgb(240, 120, 118);
     border-radius: 50%;
+    padding: 0% 3%;
 }
 .fa-briefcase{
 position: relative;
@@ -775,10 +778,10 @@ background-color: #590af7;
 position: relative;
 }
 .container__colom{
-    display: flex;
+       display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: -120px;
+    margin-bottom: -20px;
     align-items: center;
 }
 .container__block-2{
@@ -945,27 +948,50 @@ height: 80px;
 border-radius: 50%;
 }
 .pic{
-position: relative;
-display: flex;
-justify-content: start;
-align-items:stretch;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 .star{
 color: #ffd700;
 }
 .content__para{
-position: relative;
-display: flex;
-flex-direction: column;
-margin: 12px 24px;
-
+        position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: -71px 35px -258px 93px;
+    padding: 5% 1% 20% 0%;
+    justify-content: space-between;
 }
+
+.container__content-2{
+        text-align: left;
+    width: 100%;
+    min-width: 0;
+    padding: 10% 0% 0% 16%;
+    margin: -91px -165px 218px -28px;
+}
+.content__3{
+    padding: 3% 26% 14% 86%;
+    margin: -80px -4px -17px -2px;
+    width: 100%;
+    min-width: 138px;
+    height: 100%;
+    min-height: 239px;}
+.content__p{
+    padding: 56% 20% 4% 73%;
+    margin: 19px 71px 11px -106px;
+    width: 100%;
+    /* min-width: 55px; */
+    /* height: 100%; */
+    max-height: -85px;
+    display: flex;}
 .arrow{
-display: flex;
-flex-direction: row-reverse;
-max-width: 400px;
-width: 100%;
-transform: translate(-11px, 20px);
+        display: flex;
+    flex-direction: row-reverse;
+    max-width: 400px;
+    width: 100%;
+    transform: translate(44%, -186%);
 }
 .arrow-1{
 position: relative;
@@ -1018,12 +1044,12 @@ align-items: center;
 
 }
 .curve__design{
-    width: 300px;
+        width: 300px;
     height: 300px;
     border-radius: 50%;
     z-index: 1;
     background: radial-gradient(circle, #590af7 70%, transparent 70%);
-    transform: translate(-44%, -37%);
+    transform: translate(calc(50vw - 827px), 36%) rotate(135deg);
 
 }
 .container__content-btn-title{
@@ -1079,12 +1105,12 @@ background-color: #ffffff;
 color: #590af7;
 }
 .curve__design-2{
-     width: 300px;
+           width: 300px;
     height: 300px;
     border-radius: 50%;
     z-index: 1;
     background: radial-gradient(circle,  #590af7 70%, transparent 70%);
-    transform: translate(calc(50vw - 150px), 45%) rotate(135deg);
+    transform: translate(calc(50vw - 98px), -73%) rotate(135deg);
 }
 
 
@@ -1239,6 +1265,9 @@ padding: 4%;}
     min-width: 260px;
 }
 .cta__wrap{
+width: 100%;
+height: auto;
+
 }
 
 .eml{
