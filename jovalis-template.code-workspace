@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "jovalis-template",
+			"path": "."
+		},
+		{
+			"path": "assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jovalis-template"
+	}
+}
