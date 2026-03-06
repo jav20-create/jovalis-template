@@ -1276,7 +1276,9 @@ header{
 height: calc(100vh - 400px);
 }
 
-
+.container__content-l{
+padding: 0% 5% 0% 5%;
+}
 
 .nav__container{
     display: flex;
@@ -1429,11 +1431,11 @@ margin: -50px -70px -12px 20px;}
     padding: 2% 53% 1% 1%;
 }
 .container__mini-p-briefcase{
-    display: flex;
+        display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 1% 23% 1% 1%;
-    margin: -207px -94px -94px 112px;
+    padding: 1% 30% 3% 0%;
+    margin: -207px -94px -92px 70px;
 }
 .btn__wrapper{
     margin: 136% 1% -9% -492%;
@@ -1495,7 +1497,7 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     padding: 50%;
-    margin: -40px 39px 0 -275px;
+margin: -110px 39px 116px -275px;
 }
 .container__subtitle-3{
     font-size: 30px;
