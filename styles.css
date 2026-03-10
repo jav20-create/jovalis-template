@@ -1498,9 +1498,9 @@ margin: -79px 325px 30px 842px;}
       position: relative;
     background-image: radial-gradient(#6415ff 2px, transparent 0);
     background-size: 8px 8px;
-    margin: 136px 73px -200px 588px;
+    margin: 147px 82px -196px 596px;
     z-index: 1;
-    padding: 7% 7%;
+    padding: 6% 6%;
 }
 .container__info{
 width: calc(100% / 2);
@@ -1711,6 +1711,15 @@ transform: translate(calc(50vw - 150px), -74%) rotate(135deg);    /* transform: 
 
     transform: translate(-158px, -280px);
 }
+.circle__radius-1{
+transform: translate(767px, -9px);
+}
+.prline__purp {
+position: relative;
+
+}
+.footer__container{
+margin: -405px -235px 0 72px;
 }
 @media (max-width: 768px) {
   
