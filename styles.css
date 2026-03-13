@@ -1753,12 +1753,9 @@ p{       position: relative;
     flex-wrap: wrap;
     align-content: center;
     width: 100%;
-    max-width: 504px;
+    max-width: 350px;
 }
-.container__content--1-2{
-    width: 100%;
 
-}
 .btn__menu{
 display: block;
 margin: -76px 266px 30px 603px;
@@ -1830,10 +1827,10 @@ min-width: 600px;
     margin: 8px;
 }
 .container__colom{
-      display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 273px 0;
+    margin: 273px -104px 214px -12px;
 }
 .btn-link{
 display: none;
@@ -1946,41 +1943,40 @@ margin: -80px -6px 6px -350px;
     width: 105%;
 }
 .btn-1{
-height: 8%;
+height: 100%;
+max-height: 40px;
 }
-.subject__row-reverse{
-display: flex;
-flex-direction: column-reverse;
-}
+
 .container__img-2{
-     width: 100%;
+      width: 100%;
     min-width: 300px;
-    margin: 0 -72px;
+    margin: 0 -35px;
 }
-.box__dots{
-    position: relative;
+.box_dots{
+      position: relative;
     background-image: radial-gradient(#6415ff 2px, transparent 0);
     background-size: 8px 8px;
-    margin: -12px 36px 262px 305px;
+    margin: -38px 75px -29px 229px;
     z-index: 1;
-    padding: 16% 16%;
+    padding: 16% 20% 10% 12%;
 
 }
 .container__img-wrapper-3{
-    margin: 40%  35% 0% 41%;
-    padding: 20%;}
-  .container__img-wrapper-4{
-margin: 0 30px 0 124px;
+     margin: 75%  35% 132% 6%;
+    padding: 20%;
 
 }
 .container__row{
 display: flex;
 flex-direction: column;
 }
-.container-3{
-    margin: -43px -18px 315px 194px;
-    align-items: center;
-}
+.row__small{
+     display: flex;
+    padding: 10%;
+    margin: 66px -49px;
+    flex-wrap: wrap;
+    justify-content: center;
+     
 .box_dots-p{
             position: relative;
     background-image: radial-gradient( rgba(100, 21, 255, 0.4) 3px, transparent 0px);
@@ -2037,12 +2033,13 @@ flex-direction: row;
 
 }
 .container__content-l{
-       text-align: center;
+     text-align: center;
     width: 100%;
-    min-width: 500px;
-    margin: 10px 0;
+    min-width: 350px;
+    margin: 17px -61px 44px -84px;
+    padding: 0% 20%;
 
-}
+.box_dots
 .logo__style{
 display: flex;
 }
