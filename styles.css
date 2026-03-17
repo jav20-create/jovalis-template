@@ -2396,9 +2396,13 @@ p{
     flex-wrap: wrap;
 }
 .container__colom{
-    display: flex;
+     display: flex;
     flex-direction: column;
-    margin: 197px 35px 3px 9px;
+    margin: 197px 35px 3px -28px;
+}
+.container__img-wrapper-3{
+       margin: 236px  35px 460px -40px;
+    padding: 6%;
 }
 .container__title{
     text-align: left;
@@ -2441,13 +2445,25 @@ width: 50%;
     margin: -70px 287px 12px -64px;
 }
 .container__wrapper {
-     display: flex;
+       display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
-    min-height: 650px;
+    min-height: 733px;
     width: 100%;
     min-width: 340px;
+    margin: -408px 0px 203px -20px;
+}
+.container__content-l-v{
+    width: 100%;
+    min-width: 300px;
+    margin: -4px 12px 100px -81px;
+    padding: 0% 10%;
+}
+.btn-1{
+       height: 100%;
+    max-height: 40px;
+    margin: 96px -102px 0 -321px;
 }
 .container__form {
     display: flex;
@@ -2455,6 +2471,29 @@ width: 50%;
     width: 100%;
     max-width: 150px;
 
+}
+.container__img-wrapper-4{
+      position: relative;
+    display: flex;
+    margin: -585px -173px 950px -10px;
+    padding: 30%;
+    justify-content: center;
+}
+.box_dots-p{
+      position: relative;
+    background-image: radial-gradient( rgba(100, 21, 255, 0.4) 2px, transparent 2px);
+    background-size: 8px 8px;
+    padding: 20%;
+    margin: 117px 0px 22px -165px;
+}
+
+.container__block--content{
+     display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: -557px 80px 1px -72px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .container__subtitle-1{
     text-align: center;
@@ -2525,11 +2564,15 @@ width: 50%;
     align-items: center;
   
 }
-.box_dots {
-transform: translate(263px, -31px);
-margin: -63px 80px -8px 253px;
-padding: 14%;
+.container__img-2{
+      width: 100%;
+    min-width: 315px;
+    margin: 20px -30px;
 }
+.box_dots {
+      transform: translate(263px, -31px);
+    margin: -39px 55px -52px -25px;
+    padding: 25%;}
 .container__img-logo{
     width: 100%;
     min-width: 270px;
