@@ -68,7 +68,7 @@ footer{
     max-height: 300px;
 }
 #treact{
-    margin: -30px 40px;}
+      margin: 0px 40px;}
 #templates,
 #profession,
 #sale,
@@ -125,7 +125,7 @@ display: flex;
 }
 .header__img-wrapper{
     width: 100%;
-    min-width: 810px;}
+    min-width: 800px;}
 .header__content{
      width: 100%;
     max-width: 510px;
@@ -311,14 +311,14 @@ TREACT
     align-items: center;
 }
 .nav__logo{
-font-weight: 900;
-font-size: 24px;
-margin-left: 12px;
-letter-spacing: 0.6px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 12px;
+    letter-spacing: 0.6px;
 }
 .nav__img{
-max-width: 40px;
-width: 100%;
+    max-width: 50px;
+    width: 100%;
 }
 
 .btn__wrapper{
@@ -352,10 +352,10 @@ width: 100%;
 background-color: rgb(38, 2, 130);
 }
 .nav-actions{
-      display: flex;
+     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 190px;
+    max-width: 200px;
 }
 
 
@@ -366,24 +366,24 @@ flex-wrap: wrap;
 
 
 .nav-link{
-display: flex;
-white-space: nowrap;
-margin-right: 50px;
-font-size: 16px;
-font-weight: 500;
-color: #000000;
-text-decoration-line: none;
-transition: all 500ms ease;
+    display: flex;
+    white-space: nowrap;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration-line: none;
+    transition: all 500ms ease;
 }
 .nav-link-btn{
-display: flex;
-white-space: nowrap;
-margin-right: 25px;
-font-size: 16px;
-font-weight: 500;
-color: #000000;
-text-decoration-line: none;
-transition: all 500ms ease;
+    display: flex;
+    white-space: nowrap;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration-line: none;
+    transition: all 500ms ease;
 }
 
 .nav-link-btn:hover{
@@ -536,8 +536,8 @@ cursor: pointer;
     height: auto;
 }
 .container__img{
-       width: 100%;
-    max-width: 610px;
+      width: 100%;
+    max-width: 770px;
 }
 .container__img-wrapper{
        display: flex;
@@ -2202,6 +2202,9 @@ nav{
     min-width: 730px;
     align-items: center;
 }
+#treact{
+    margin: 0px 4px;
+}
 .row{
     width: 100%;
     max-width: 768px;
@@ -2356,7 +2359,11 @@ max-width: 300px;
 }
 .subject__row-reverse{
        display: flex;
-    margin: -270px 0 -81px 0;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 768px;
+    height: 100%;
+    max-height: 710px;
 }
 .container__content-2{
     text-align: left;
@@ -2421,10 +2428,12 @@ display: flex;
     margin: 8px;
 }
 .container__colom{
-     display: flex;
+       display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
+    height: 100%;
+    min-height: 200px;
 }
 
 .star{
@@ -2468,9 +2477,9 @@ width: 50%;
 width: 50%;
 }
 .block__icon{
-        display: flex;
+       display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
+    max-width: 520px;
 }
 
 
@@ -2486,24 +2495,23 @@ width: 50%;
     align-content: stretch;
 }
 .header__img{
-    width: 100%;
-    max-width: 437px;
+       width: 100%;
+    max-width: 520px;
     height: 100%;
     min-height: 550px;
 } 
 .container__content-small{
-    position: relative;
+      position: relative;
     display: flex;
     width: 100%;
-    max-width: 274px;
+    max-width: 470px;
     height: 100%;
-    min-height: 120px;
-    justify-content: center;
+    min-height: 40px;
 }
 .container__img-logo{
      width: 100%;
-    min-width: 400px;
-    margin: -1px 55px -167px -674px;
+    min-width: 470px;
+    height: 100%;
 }
 .container__img-5{
     position: relative;
@@ -2576,8 +2584,9 @@ width: 50%;
 }
 
 .icon{
-    padding: 14px;
-    width: 105%;
+       padding: 10px;
+    width: 100%;
+    min-width: 40px;
 }
 .btn-1{
       height: 100%;
@@ -2602,9 +2611,8 @@ width: 50%;
     justify-content: flex-start;
 }
 .container__img-2{
-    width: 100%;
-    min-width: 315px;
-    margin: 20px -10px;
+     width: 100%;
+    max-width: 270px;
 }
 .container__content-r-l{
       width: 100%;
@@ -2640,8 +2648,10 @@ width: 50%;
     padding: 0% 20%;
 }
 .container__img-wrapper-3{
-     margin: 236px  35px 460px -25px;
-    padding: 6%;
+      position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .container__row{
@@ -2649,11 +2659,13 @@ width: 50%;
     margin: -2px 0 -636px 0;
 }
 .row__small{
-       display: flex;
+     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    max-width: 93px;
+    min-width: 768px;
+    height: 100%;
+    min-height: 1700px;
 }
 .box_dots-p{
      position: relative;
