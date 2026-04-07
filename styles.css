@@ -2888,7 +2888,6 @@ text-align: center;
     max-width: 60px;
     height: 100%;
     min-height: 130px;
-    font-size: calc(2vw + 20px);
 }
 .container__img-wrapper-4{
       position: relative;
@@ -3021,12 +3020,12 @@ width: 100%;
 }
 h1{
     position: relative;
-    font-size: calc(12px + 2vw);
+    font-size: calc(12px + 3vw);
 }
 h3{
       position: relative;
     font-size: calc(18px + 1vw);
-    line-height: 1.5;jjj
+    line-height: 1.5;
 }
 p{
        position: relative;
@@ -3040,6 +3039,11 @@ nav{
     width: 100%;
     min-width: 425px;
     align-items: center;
+}
+header{
+        display: flex;
+    flex-direction: column;
+    height: calc(100vh - 90px);
 }
 .row{
     width: 100%;
@@ -3092,14 +3096,14 @@ nav{
 }
 
 .row__small{
-     display: flex;
+      display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     min-width: 300px;
     flex-wrap: wrap;
     height: 100%;
-    min-height: 1992px;
+    min-height: 1440px;
 }
 .container__colom{
        display: flex;
@@ -3111,8 +3115,14 @@ nav{
     max-width: 300px;
 }
 .container__img-wrapper-3{
-         margin: 236px  35px 460px -104px;
-    padding: 6%;
+      height: 100%;
+    max-height: 34px;
+    min-width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
 }
 .container__title{ 
       text-align: center;
@@ -3126,6 +3136,14 @@ nav{
     flex-wrap: wrap;
     justify-content: flex-end;
     min-width: 250px;
+}
+.container__img-5{
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+    min-height: 170px;
+    z-index: 2;
 }
 .container__title--sub-1-2{
     text-align: center;
@@ -3162,18 +3180,39 @@ nav{
     min-width: 350px;
 }
 .container__wrapper {
-       display: flex;
+        display: flex;
     flex-direction: column;
-    align-items: center;
     height: 100%;
-    min-height: 733px;
+    min-height: 270px;
     width: 100%;
-    min-width: 340px;
-    margin: -408px 0px 203px -64px;
+    max-width: 300px;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container__row{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    min-height: 910px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.container__title--sub-2{
+    font-weight: 800;
+    width: 100%;
+    max-width: 60px;
+    height: 100%;
+    min-height: 130px;
+    text-align: center;
 }
 .container__content-l-v{
     width: 100%;
     min-width: 300px;
+    min-height: 254px;
 }
 .btn-1{
        height: 100%;
@@ -3187,18 +3226,34 @@ nav{
 
 }
 .container__img-wrapper-4{
-      position: relative;
+     position: relative;
     display: flex;
-    margin: -585px -173px 950px -10px;
-    padding: 30%;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 300px;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -268px;
+}
+.container__block{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    min-height: 400px;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .box_dots-p{
       position: relative;
     background-image: radial-gradient( rgba(100, 21, 255, 0.4) 2px, transparent 2px);
     background-size: 8px 8px;
-    padding: 20%;
-    margin: 117px 0px 22px -165px;
+    width: 100%;
+    max-width: 72px;
+    height: 100%;
+    min-height: 72px;
+    transform: translate(-7px, 12px);
 }
 
 .container__block--content{
@@ -3233,9 +3288,11 @@ nav{
     transform: translate(-206px, -23px);
 }
 .subject__row-reverse {
-      display: flex;
-    margin: -104px -30px -151px 0px;
-    flex-direction: column;
+       display: flex;
+    flex-direction: column-reverse;
+    max-width: 300px;
+    min-height: 305px;
+    flex-wrap: wrap;
 }
 .container__img-3{
     display: flex;
@@ -3278,13 +3335,13 @@ nav{
 }
 .container__img-2{
       width: 100%;
-    min-width: 315px;
-    margin: 20px -30px;
+    max-width: 250px;
 }
 .box_dots {
-      transform: translate(263px, -31px);
-    margin: -39px 55px -52px -25px;
-    padding: 25%;}
+        transform: translate(-40px, 42px);
+    background-size: 8px 8px;
+    min-width: 80px;
+    min-height: 80px;}
 .container__img-logo{
        width: 100%;
     min-width: 412px;
