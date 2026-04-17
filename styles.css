@@ -401,27 +401,7 @@ background-color: rgb(38, 2, 130);
     max-width: 300px;
      justify-content: space-between;
 }
-.btn-link{
-       position: relative;
-    display: flex;
-    white-space: nowrap;
-    width: 100%;
-    min-width: 100px;
-    height: 100%;
-    min-height: 30px;
-    background-color: #6105ff;
-    color: #fff;
-    font-weight: 700;
-    border: none;
-    border-radius: 40px;
-    font-size: 14px;
-    text-decoration: none;
-    transition: all 500ms ease;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    
-}
+
 
 .nav-link{
         display: flex;
@@ -1549,24 +1529,24 @@ footer{
     flex-wrap: wrap;
 }
 .container__info{
-    display: flex;
+      display: flex;
     width: calc(100% / 3);
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .container__title{
-       color: #6105ff;
+      color: #6105ff;
     white-space: nowrap;
     width: 100%;
-    max-width: 346px;
+    max-width: 400px;
     font-size: 24px;
     line-height: 1;
 }
 .block__icon{
-    display: flex;
+       display: flex;
     width: 100%;
     height: auto;
-    max-width: 840px;
+    max-width: 780px;
     align-content: space-between;
     flex-wrap: wrap;
 }
@@ -1720,6 +1700,25 @@ min-width: 320px;
     white-space: nowrap;
     min-width: 0;  
 }
+.btn-link{
+       position: relative;
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+    min-height: 30px;
+    background-color: #6105ff;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 500ms ease;
+    align-items: center;
+    justify-content: center;
+}
 .arrow{
        display: flex;
     flex-direction: row-reverse;
@@ -1741,10 +1740,10 @@ min-width: 320px;
     padding: 10px 20px;
 }
 .container__sale{
-    display: flex;
+       display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 170px;
+    max-width: 155px;
     flex-wrap: wrap;
 }
 .icon{
@@ -1762,7 +1761,7 @@ min-width: 320px;
 }
 .container__content-r-l{
        width: 100%;
-    max-width: 342px;
+    max-width: 400px;
 }
 .container__column{
       display: flex;
@@ -1797,48 +1796,49 @@ min-width: 320px;
 }
 
 .container__color-content{
-       width: 100%;
-    max-width: 170px;
+     width: 100%;
+    max-width: 200px;
     height: 100%;
-    max-height: 127px;
+    max-height: 100px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
 }
 .container__mini-p-dollar{
-      width: 100%;
-    max-width: 150px;
+       width: 100%;
+    max-width: 160px;
     height: 100%;
-    max-height: 127px;
+    max-height: 100px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .container__mini-p-briefcase{
        display: flex;
-    flex-direction: column;
-    text-align: left;
     width: 100%;
-    min-width: 170px;
+    min-width: 160px;
     height: 100%;
-    min-height: 120px;
+    min-height: 100px;
+    flex-wrap: wrap;
 }
 .fa-briefcase{
-      position: relative;
+       position: relative;
     background-color: rgb(240, 120, 118);
     border-radius: 50%;
     width: 100%;
-    min-width: 36px;
+    max-width: 30px;
     height: 100%;
-    min-height: 36px;
+    max-height: 30px;
     color: rgb(169, 6, 6);
     padding: 5%;
 }
 .btn__wrapper{
-        position: relative;
+       position: relative;
     width: 100%;
-    max-width: 127px;
+    max-width: 100px;
     height: 100%;
     min-height: 40px;
+    transform: translate(-62px, 10px);
 }
 .container__subtitle-3{
     font-size: 30px;
@@ -1950,12 +1950,13 @@ min-width: 320px;
     min-height: 100px;
 }
 .container__color-logo{
-       display: flex;
+     display: flex;
     width: 100%;
     max-width: 400px;
     height: 100%;
-    min-height: 140px;
+    min-height: 183px;
     justify-content: flex-end;
+    align-content: flex-start;
 }
 .container__content-l-v{
      position: relative;
@@ -1968,20 +1969,20 @@ min-width: 320px;
       position: relative;
     text-align: left;
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     height: 100%;
     min-height: 131px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .container__title--sub-1{
-       font-weight: 600;
+        font-weight: 600;
     text-align: left;
     width: 100%;
-    max-width: 346px;
+    max-width: 400px;
 }
 .container__img-3{
        position: relative;
@@ -2006,7 +2007,11 @@ min-width: 320px;
 }
 .logo__style{
        display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 210px;
+    justify-content: flex-start;
+    align-content: flex-end;
     align-items: center;
 }
 .fa-dollar-sign{
@@ -2153,7 +2158,7 @@ transform: translateX(-16px);
 .container__subtitle-1{
        text-align: left;
     width: 100%;
-    max-width: 158px;
+    max-width: 100px;
 }
 .container__img-5{
      position: relative;
