@@ -288,9 +288,10 @@ min-width: 0;
 }
 
 .container__subtitle-2{
-text-align: left;
-width: 100%;
-min-width: 0;
+       text-align: left;
+    width: 100%;
+    max-width: 224px;
+    max-height: 36px;
 }
 /*
 
@@ -577,8 +578,8 @@ cursor: pointer;
     height: auto;
 }
 .container__img{
-      width: 100%;
-    max-width: 700px;
+       width: 100%;
+    max-width: 650px;
 }
 .container__img-wrapper{
        display: flex;
@@ -1154,12 +1155,12 @@ color: #ffd700;
 }
 
 .container__content-2{
-        text-align: left;
+       text-align: left;
     width: 100%;
     white-space: nowrap;
     min-width: 0;
-    padding: 12% 0% 0% 15%;
-    margin: -91px -165px 218px -28px;
+    height: 100%;
+    max-height: 190px;
 }
 .content__3{
     
@@ -1442,8 +1443,8 @@ h1{
     line-height: 1.35;
 }
 h3{
-        position: relative;
-    font-size: 20px;
+         position: relative;
+    font-size: 30px;
     line-height: 1.25;
 }
 p{
@@ -1535,10 +1536,10 @@ footer{
     justify-content: space-evenly;
 }
 .container__title{
-      color: #6105ff;
+       color: #6105ff;
     white-space: nowrap;
     width: 100%;
-    max-width: 400px;
+    max-width: 360px;
     font-size: 24px;
     line-height: 1;
 }
@@ -1550,11 +1551,16 @@ footer{
     align-content: space-between;
     flex-wrap: wrap;
 }
+.pic-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 .container__content-l-s-v{
-width: 100%;
-max-width: 500px;
-height: 100%;
-max-height: 300px;
+    width: 100%;
+    max-width: 360px;
+    height: 100%;
+    max-height: 300px;
 }
 .cpontainer__title--sib-1-2{
     font-weight: 600;
@@ -1645,8 +1651,8 @@ min-width: 320px;
     min-height: 400px;
 }
 .container__img{
-    width: 100%;
-    max-width: 530px;
+       width: 100%;
+    max-width: 412px;
 }
 .header__discription{
     width: 100%;
@@ -2078,12 +2084,12 @@ transform: translateX(-16px);
 transform: translateX(-16px);
 }
 .container__img-wrapper{
-     position: relative;
+      position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-width: 500px;
+    min-width: 460px;
 }
 
 .btn__types{
@@ -2158,7 +2164,7 @@ transform: translateX(-16px);
 .container__subtitle-1{
        text-align: left;
     width: 100%;
-    max-width: 100px;
+    max-width: 385px;
 }
 .container__img-5{
      position: relative;
