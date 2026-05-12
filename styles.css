@@ -66,8 +66,7 @@ footer{
     overflow: hidden;
     height: 300px;
 }
-#treact{
-      margin: 0px 40px;}
+#treact,
 #templates,
 #profession,
 #sale,
@@ -76,8 +75,8 @@ footer{
 #testimonial,
 #steps
 {
-margin-bottom: 60px;
-}
+      margin: 0px 40px;}
+
 #cta{
        position: relative;
     display: flex;
@@ -654,9 +653,8 @@ PROFESSION
 background-color: rgb(38, 2, 130);
 }
 .container__img-2{
-       position: relative;
-    width: 100%;
-    max-width: 560px;
+        position: relative;
+    width: calc(40vw - 22px);
 }
 .container__wrapper-3{
 text-align: left;
@@ -664,15 +662,13 @@ width: 400px;
 z-index: -1;
 }
 .box_dots{
-    position: relative;
-    background-image: radial-gradient(#6415ff 2px, transparent 2px);
-    background-size: 8px 8px;
+      position: relative;
+    background-image: radial-gradient(#6415ff 3px, transparent 3px);
+    background-size: 10px 10px;
     transform: translate(-40px, 320px);
     z-index: -1;
-    width: 100%;
-    max-width: 80px;
-    height: 100%;
-    min-height: 80px;
+    width: calc(7rem - 20px);
+    height: calc(7rem - 20px);
 }   
 /*
 
@@ -2902,8 +2898,8 @@ display: none;
       min-width: 250px;
 }
 .container__img-2{
-        width: 100%;
-    max-width: 286px;
+       width: calc(39vw - 2px);
+    height: calc(23vw - 6px);
 }
 .container__column{
       display: flex;
@@ -2942,14 +2938,12 @@ display: none;
 }
 .box_dots{
        position: relative;
-    background-image: radial-gradient(#6415ff 2px, transparent 2px);
+    background-image: radial-gradient(#6415ff 3px, transparent 3px);
     background-size: 9px 9px;
-    transform: translate(236px, -60px);
+    transform: translate(242px, -44px);
     z-index: 1;
-    width: 100%;
-    min-width: 90px;
-    height: 100%;
-    min-height: 90px;
+    width: calc(7rem - 22px);
+    height: calc(10rem - 69px);
 }
 .container__content-l-v{
       position: relative;
