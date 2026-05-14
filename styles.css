@@ -42,7 +42,6 @@ nav{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    min-width: 1000px;
     align-items: center;
 
 
@@ -136,16 +135,15 @@ display: flex;
       width: calc(75vw - 289px);
     height: auto;}
 .header__content{
-      width: calc(80vw - 610px);
-    height: calc(60vh - 10px);
+      width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: space-around;
 }
 .header__discription{
-      width: calc(34vw - 100px);
-    height: calc(30vh - 20px);
+      width: 100%;
+    height: 100%;
 }
 .container__4{
     width: 100%;
@@ -171,21 +169,17 @@ display: flex;
      position: relative;
     display: flex;
     width: 100%;
-    max-width: 600px;
     height: 100%;
-    min-height: 770px;
     align-content: space-around;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: 0 50px;
 }
 .container-column{
        display: flex;
     align-items: center;
     width: 100%;
-    max-width: 1440px;
 }
 .container-3{
 position: relative;
@@ -198,7 +192,7 @@ width: 50%;
 .container__content-r-l{
 
       width: 100%;
-    max-width: 520px;
+    
     color: rgb(114, 137, 169);
 }
 .container__title--sub{
@@ -246,7 +240,7 @@ min-width: 0;
     width: 100%;
     max-width: 600px;
     height: 100%;
-    min-height: 400px;
+;
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
@@ -255,7 +249,6 @@ min-width: 0;
       color: #6105ff;
     white-space: nowrap;
     width: 100%;
-    max-width: 530px;
 font-size: 26px;    
 line-height: 1;
 }
@@ -263,7 +256,6 @@ line-height: 1;
 color: #6105ff;
 
 
-min-width: 0;
 }
 .container__title-1{
     text-align: left;
@@ -273,7 +265,7 @@ min-width: 0;
     font-size: 21px;
 }
 .container__content-1{
-         width: calc(35vw - 50px);
+         width: 100%;
 }
 
 .container__subtitle-1{
@@ -297,10 +289,9 @@ TREACT
 */
 
 .nav__row{
-      display: flex;
+       display: flex;
     flex-wrap: wrap;
     width: 100%;
-    min-width: calc(30vw - 20px);
     justify-content: space-between;
 }
 
@@ -335,10 +326,10 @@ TREACT
     width: 100%;
     max-width: 150px;
     height: 100%;
-    min-height: 14px;}
+   }
 .nav__link-btn{
 
-     display: flex;
+      display: flex;
     background-color: #6105ff;
     white-space: nowrap;
     font-size: 18px;
@@ -348,11 +339,10 @@ TREACT
     text-decoration-line: none;
     transition: all 500ms ease;
     width: 100%;
-    min-width: 100px;
     height: 100%;
-    min-height: 40px;
     justify-content: center;
     align-items: center;
+    padding: 11% 103%;
 }
 .nav__link-btn:hover{
     background-color: rgb(38, 2, 130);
@@ -363,9 +353,7 @@ TREACT
     display: flex;
     white-space: nowrap;
     width: 100%;
-    min-width: 150px;
     height: 100%;
-    min-height: 40px;
     background-color: #6105ff;
     color: #fff;
     font-weight: 700;
@@ -523,9 +511,9 @@ TEMPLATES
     border-radius: 28px;
     z-index: 2;
     position: relative;
-    height: calc(5vw - 20px);
-    width: calc(10vw - 14px);
-    margin-right: 5px;
+    width: calc(10vw - 3px);
+    margin: 5px 5px;
+    height: calc(4vh - 2px);
     
 }
 .btn:hover{
@@ -533,17 +521,21 @@ background-color: rgb(38, 2, 130);
 cursor: pointer;
 }
 .eml{
-      position: relative;
+       position: relative;
     text-align: center;
     border-radius: 40px;
     border: 1px solid rgb(114, 137, 169);
-    width: calc(42vw - 118px);
-    height: calc(8vw - 49px);
+    width: calc(40vw - 40px);
+    height: calc(10vh - 60px);
+
 }
 
 .container__form{
-     width: calc( 18vw + 230px);
-    margin-left: calc(1vw + 3px);
+     position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .form-wrapper{
       display: grid;
@@ -556,7 +548,7 @@ cursor: pointer;
     grid-area: stack;
 }
 .container__img-logo{
-      width: calc(32vw - 6px);
+      width: 100%;
     position: relative;
     opacity: 0.5;
     height: auto;
@@ -568,12 +560,10 @@ cursor: pointer;
        max-width: 650px;
     width: 100%;
     height: 100%;
-    min-height: 290px;
 }
 .container__img-wrapper{
          display: flex;
     width: 100%;
-    min-width: 726px;
     justify-content: center;
 }
 
@@ -627,7 +617,6 @@ min-width: 0;
     border: 1px solid #cccccc;
     border-radius: 50px;
     width: 100%;
-    min-width: 80px;
 }
 /*
 
@@ -638,14 +627,12 @@ PROFESSION
 .btn-1{
      display: flex;
     width: 100%;
-    max-width: 166px;
     background-color: #6105ff;
     color: #fff;
     border: none;
     position: relative;
     height: 100%;
     justify-content: center;
-    min-height: 56px;
     align-items: center;
     margin: -210px 0;
 }
@@ -654,21 +641,23 @@ background-color: rgb(38, 2, 130);
 }
 .container__img-2{
         position: relative;
-    width: calc(40vw - 22px);
+    width: 80%;
 }
 .container__wrapper-3{
 text-align: left;
-width: 400px;
+width: 100%;
 z-index: -1;
 }
 .box_dots{
-      position: relative;
+        position: relative;
     background-image: radial-gradient(#6415ff 3px, transparent 3px);
     background-size: 10px 10px;
-    transform: translate(-40px, 320px);
+    transform: translate(-50%, 296%);
     z-index: -1;
-    width: calc(7rem - 20px);
-    height: calc(7rem - 20px);
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    min-height: 100px;
 }   
 /*
 
@@ -685,18 +674,16 @@ STEPS
 .container__block{
     display: flex;
     width: 100%;
-    max-width: 650px;
     height: 100%;
-    min-height: 750px;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 .container__block--content{
        display: flex;
     width: 100%;
-    min-width: 650px;
+    
     height: 100%;
-    min-height: 100px;
+    
     flex-wrap: wrap;
     flex-direction: column;
     align-content: flex-end;
@@ -705,17 +692,17 @@ STEPS
 .container__img-5{
      position: relative;
     width: 100%;
-    max-width: 620px;
+
     height: 100%;
-    min-height: 340px;
+  
     z-index: 2;
 }
 .container__content-l-s-1{
       color: rgb(114, 137, 169);
     width: 100%;
-    min-width: 500px;
+
     height: 100%;
-    max-height: 300px;
+  
 }
 
 .container__wrapper-2{
