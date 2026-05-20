@@ -38,13 +38,12 @@ ul{
 list-style-type: none;
 }
 nav{
-       position: relative;
+     position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 134%;
     align-items: center;
-
-
+    justify-content: flex-start;
 }
 button{
 border-radius: 40px;
@@ -291,16 +290,16 @@ TREACT
 */
 
 .nav__row{
-       display: flex;
-    width: 90%;
+     display: flex;
+    width: 100%;
+    justify-content: flex-start;
 }
 
 .nav__container{
-       display: flex;
+     display: flex;
     position: relative;
-    width: 30%;
-    justify-content: center;
-    
+    width: 12%;
+    justify-content: flex-end;
 }
 .nav__wrapper{
       display: flex;
@@ -311,7 +310,7 @@ TREACT
 }
 .nav__logo{
        font-weight: 900;
-    font-size: 30px;
+    font-size: calc(2rem - 1px);
     letter-spacing: 0.6px;
 }
 .nav__img{
@@ -1420,11 +1419,12 @@ header{
     height: calc(100vh - 400px);
 }
 nav{
-        position: relative;
+      width: 150%;
+}
+.nav__row{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
+    width: 62%;
+    justify-content: center;
 }
 footer{
        background-color: #6415ff;
@@ -1470,13 +1470,7 @@ footer{
     justify-content: center;
     align-content: flex-end;
 }
-.nav__wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .container__colom{
     display: flex;
     flex-direction: row;
@@ -1549,45 +1543,30 @@ footer{
     width: 100%;
     min-width: 350px;
 }
-
+.nav__row{
+width: 70%;
+}
 
 .nav__wrapper{
-    max-width: 570px;
-}
+    width: 65%;}
 .nav__container{
-max-width: 150px;
+    width: 5%;
 }
 .nav__logo{
-font-size: 28px;
+    font-size: calc(2rem - 3px);
 }
 .nav-links{
-    max-width: 280px;
+    width: 78%;
 }
 .nav-actions{
-     max-width: 240px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+        width: 20%;
 }
 .nav-link{
     font-size: 14px;
 }
 .nav__link-btn{
-      display: flex;
-    background-color: #6105ff;
-    white-space: nowrap;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 40px;
-    color: #ffffff;
-    text-decoration-line: none;
-    transition: all 500ms ease;
-    width: 100%;
-    min-width: 80px;
-    height: 100%;
-    min-height: 30px;
-    justify-content: center;
-    align-items: center;
+   font-size: calc(2rem - 16px);
+padding: 12% 90%;
 }
 .header__description{
 margin: 0 -50px;
@@ -2384,16 +2363,14 @@ footer{
     margin: 0 auto;
 }
 .nav__row{
-       width: 100%;
-    min-width: 740px;
-    height: 100%;
-    min-height: 50px;
+       width: 80%;
+    justify-content: space-around;
 }
 .nav__container{
-    display: flex;
+       display: flex;
+    width: 20%;
     align-items: center;
-    max-width: 140px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .container__wrapper{
        display: flex;
@@ -2743,11 +2720,9 @@ display: none;
 display: none;
 }
 .btn_menu {
-       display: block;
-    width: 100%;
-    max-width: 97px;
-    height: 100%;
-    max-height: 50px;
+       display: flex;
+    width: 80%;
+    justify-content: flex-end;
 }
 .nav__wrapper{
     display: none;
