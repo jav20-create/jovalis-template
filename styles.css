@@ -2589,6 +2589,25 @@ max-width: 300px;
     min-height: 34px;
     padding: 4%;
 }
+.container__img-wrapper{
+    width: 100%;
+    max-width: 414px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    top: 40%;
+}
+.row__small{
+    top: 220px;
+}
+.subject__row-reverse{
+    position: relative;
+    top: 222px;
+    height: 100%;
+    max-height: 391px;
+}
 .fa-briefcase{
       position: relative;
     background-color: rgb(240, 120, 118);
@@ -2968,6 +2987,9 @@ width: 100%;
         text-align: left;
     width: 100%;
     max-width: 300px;
+}
+.container__img{
+    width: calc(57vw - 25px);
 }
 .box_dots{
        background-size: 9px 9px;
