@@ -157,13 +157,15 @@ display: flex;
 .container{
     padding: 4% 0;}
 .container__wrapper{
-      display: flex;
+       display: flex;
+    position: relative;
     width: 100%;
     max-width: 600px;
     height: 100%;
-    min-height: 600px;
-    margin: auto;
+    max-height: 450px;
     flex-wrap: wrap;
+    gap: 70px;
+    left: 10px;
 }
 .container__wrapper-1{
      position: relative;
@@ -177,9 +179,10 @@ display: flex;
     flex-wrap: wrap;
 }
 .container-column{
-       display: flex;
+     display: flex;
     align-items: center;
     width: 100%;
+    gap: 20px;
 }
 .container-3{
 position: relative;
@@ -215,10 +218,8 @@ width: 50%;
 .container__title--sub-2{
       font-weight: 800;
     text-align: left;
-    width: 100%;
-    max-width: 500px;
+    width: 100%; 
     height: 100%;
-    max-height: 152px;
 }
 .container__column{
       display: flex;
@@ -543,14 +544,15 @@ cursor: pointer;
     display: block;
 }
 .container__img-v{
-       max-width: 650px;
+       max-width: 640px;
     width: 100%;
     height: 100%;
 }
 .container__img-wrapper{
-         display: flex;
-    width: 100%;
+     display: flex;
     justify-content: center;
+    bottom: 55px;
+    position: relative;
 }
 
 
@@ -620,7 +622,7 @@ PROFESSION
     height: 100%;
     justify-content: center;
     align-items: center;
-    margin: -210px 0;
+top: -200px;
 }
 .btn-1:hover{
 background-color: rgb(38, 2, 130);
@@ -636,8 +638,8 @@ width: 100%;
 z-index: -1;
 }
 .box_dots{
-       position: absolute;
-    background-image: radial-gradient(#6415ff 3px, transparent 3px);
+      position: absolute;
+    background-image: radial-gradient(#6415ff 2px, transparent 3px);
     background-size: 10px 10px;
     z-index: -1;
     left: 93%;
@@ -660,21 +662,20 @@ STEPS
     margin-bottom: 60px;
 }
 .container__block{
+     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
-    align-items: flex-start;
     flex-wrap: wrap;
+    gap: 50px;
+    left: 100px;
 }
 .container__block--content{
-       display: flex;
+      display: flex;
     width: 100%;
-    
     height: 100%;
-    
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-end;
+    justify-content: flex-start;
 }
 
 .container__img-5{
@@ -723,15 +724,15 @@ height: 400px;
 .container__block--steps{
        display: flex;
     width: 100%;
-    min-width: 600px;
     height: 100%;
-    max-height: 160px;
-    justify-content: center;
     align-items: center;
+gap: 10px;
 }
 .container__title--sub-l{
-       font-size: 35px;
-    font-weight: 500;
+font-family: "Noto Sans Display", sans-serif;
+       font-weight: 500;
+    font-size: calc(3rem - 3px);
+     color: #cfcfcf;
 }
 .container__subtitle-l{
      font-size: calc(-2px + 2vw);
@@ -1499,13 +1500,11 @@ footer{
     max-width: 600px;
 }
 .container__wrapper{
-       display: flex;
-    width: 100%;
-    max-width: 390px;
+     width: 100%;
     height: 100%;
-    min-height: 229px;
-    margin: auto;
-    flex-wrap: wrap;
+    max-height: 300px;
+    left: 25px;
+    gap: 20px;
 }
 .container__info{
       display: flex;
@@ -1912,19 +1911,14 @@ width: calc(46vw - 25px);
     flex-wrap: wrap;
 }
 .container__block--steps{
-      display: flex;
-    width: 100%;
-    min-width: 420px;
+      width: 100%;
     height: 100%;
-    min-height: 200px;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 .container__steps-p{
        width: 100%;
-    min-width: 420px;
+    max-width: 300px;
     height: 100%;
-    min-height: 100px;
+    
 }
 .container__color-logo{
       display: flex;
@@ -1969,12 +1963,7 @@ width: calc(46vw - 25px);
     height: 100%;
     min-height: 440px;
 }
-.container__img-wrapper-3{
-       position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 .container__img-wrapper-2{
       position: relative;
     display: flex;
@@ -2008,11 +1997,7 @@ transform: translate(-7px , 0px);
     min-height: 166px;
     transform: translate(0px, -126px);
 }
-.container__steps-p{
-        display: flex;
-    flex-direction: column;
-    line-height: 2;
-}
+
 .container__4{
     width: 100%;
     max-width: 900px;
@@ -2038,14 +2023,7 @@ transform: translate(-7px , 0px);
     flex-direction: row;
     left: 10px;
 }
-.container__title--sub-2{
-       font-weight: 800;
-    text-align: left;
-    width: 100%;
-    max-width: 295px;
-    height: 100%;
-    max-height: 180px;
-}
+
 .container__img-wrapper-4{
     position: relative;
     display: flex;
@@ -2152,17 +2130,7 @@ min-width: 520px;
     z-index: 2;
     padding: 30px;
 }
-.btn-1{
-       width: 100%;
-    max-width: 144px;
-    background-color: #6105ff;
-    color: #fff;
-    border: none;
-    border-radius: 28px;
-    position: relative;
-    height: 100%;
-    min-height: 34px;
-}
+
 .curve__design-2{
       width: 300px;
     height: 300px;
@@ -2332,13 +2300,13 @@ top: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    top: 30%;
+    top: 40%;
 }
 .container__title--sub-1-2{
       font-weight: 600;
     text-align: center;
     width: calc(52rem - 7px);
-    height: calc(6rem - 70px);
+    height: calc(6rem - 50px);
 }
 .block__icon
 {
@@ -2348,7 +2316,7 @@ top: 20px;
 .container__row{
     position: relative;
     column-gap: 20px;
-    top: 200px;
+    top: 170px;
 }
 .subject__row-reverse-2{
     display: flex;
@@ -2381,7 +2349,7 @@ top: 300px;
 margin: 0;
 top: 300px;
 }
-footer{    position: relative;
+footer{     position: relative;
     background-color: #6415ff;
     background-size: cover;
     overflow: hidden;
@@ -2389,7 +2357,21 @@ footer{    position: relative;
     max-height: 250px;
     width: 100%;
     max-width: 1024px;
-    top: 400px;}
+    top: 1000px;}
+.footer__container{
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    flex-wrap: wrap;
+    transform: translate(64px, -320px);
+}
+.prline__purp{
+    transform: translate(0px, -297px);
+    max-width: 1000px;
+}
 .row__small{
     top: 207px;}
 .container__colom{
@@ -2441,7 +2423,7 @@ row-gap: 10px;
     width: calc(60vw - 25px);
 }
 .circle__radius-1{
-    transform: translate(480px, -430px);
+        transform: translate(628px, -430px);
 }
 
 }
